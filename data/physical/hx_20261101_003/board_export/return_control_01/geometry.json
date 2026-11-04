@@ -1,0 +1,23 @@
+{
+  "kind": "hengxin-operator-trial-geometry-v1",
+  "viewing_face": "opposite to motor-label side",
+  "positive_direction": "clockwise in selected face",
+  "p0": "original C blade at start of batch",
+  "p120": "blade4 clockwise from p0 as blade1",
+  "p240": "blade7 clockwise from p0 as blade1",
+  "angles_deg": [
+    0,
+    120,
+    240
+  ],
+  "radius_mm_approximately": 40,
+  "actual_radius_tolerance_mm": null,
+  "marking_method": "operator-declared ruler marks at all three tape centers",
+  "same_tape_piece": true,
+  "absolute_trial_mass_g": null,
+  "same_blade_surface": true,
+  "position_marks_present_for_all_five_states": true,
+  "access_without_sensor_touch_or_cable_pull": "operator confirmed in chat and declared READY",
+  "fixture": "previous arrangement reinforced before this batch",
+  "independently_verified": false
+}

@@ -1,0 +1,73 @@
+{
+  "format": "hengxin-hxs1-stop-snapshot-v1",
+  "read_only": true,
+  "observations": [
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 32,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 10,
+      "sample_total": 159095,
+      "last_xyz_u32": [
+        4294954983,
+        2561,
+        257596
+      ]
+    },
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 32,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 14,
+      "sample_total": 159095,
+      "last_xyz_u32": [
+        4294954983,
+        2561,
+        257596
+      ]
+    }
+  ],
+  "file_sha256": {
+    "samples.csv": "634adf03e0fb2bf78ce15e05a87d5d30c7ef64d91b0174e1707be85ea7cfe13f",
+    "pulses.csv": "11fa2b2664f263e5d1ddbce8f5103e273a63c70eaecb26f387b9847909721ba7",
+    "capture.json": "d39c0d5ec83091d97172893895e98054137bfc407a92144afccb183866f73f20"
+  },
+  "xsa_sha256": "eca1b6e2c84d76b3f1ceabf1e30f4cbe0625e7c9551d2d977f8bfd12633dd08a",
+  "check": {
+    "verdict": "PASS",
+    "samples": 159095,
+    "epoch": 1,
+    "scope": "single-owner HXS1 stop, empty FIFOs, source count/LAST_XYZ and bound raw files",
+    "pulse_count_scope": "CSV continuity and empty FIFO; ABI exposes no independent lifetime pulse total",
+    "physical_phase_validation": false
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-31",
+  "status": "local software implemented and verified; no board deployment or new physical capture",
+  "tests": {
+    "command": "python -m pytest -q",
+    "passed": 394,
+    "reported_seconds": 29.22,
+    "new_cases": 29
+  },
+  "source_baseline_sha256": {
+    "sim/golden/angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+    "sim/golden/order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+    "sim/golden/prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+    "sim/golden/phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670",
+    "board/bringup/sync_capture.py": "a5b8b82186b39c60165a70e3b25ff78d6e697226a9078d8d5fe056074f2d99ca",
+    "board/bringup/adxl355_pl_acq.py": "e87325f30fb7e9507bb96afe3d3422dc513364815b821ea21a55bfaa570bb4c1",
+    "board/bringup/order1x_accel.py": "a89f4d58bb987934b394c436425d8cd7a8aaccec1871b2cce6fcbbfb5ec7dd29"
+  },
+  "source_baseline_unchanged": true,
+  "source_modules_sha256": {
+    "sim/golden/phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670",
+    "sim/golden/measurement_run.py": "c66510220bb6ebd881592bd5bf105eff6715cbbb7bebe7c41d39119db62cd590",
+    "sim/golden/measurement_capture.py": "cfa1a9de0650d0633534645b873f6c55b308ba53b291dafd8f5fc365e87fabc9",
+    "sim/golden/sync_csv.py": "a4e3058713e763052c5d8ccc91a9f1500e7e8fe0c41fe957da77d1fa9149da8f",
+    "sim/golden/tacho.py": "e2b053d3c372b6b61a4d949ac4d0003a8fe48a15cc52648e5ab522e898c168df",
+    "sim/golden/sync_order.py": "ec553c23741f0e0bf8b5852857b51601ab5e4f44f8dfef26600440413779ba98",
+    "sim/golden/timebase.py": "df7401831364acf0027a4600bb33024eebf467cc173aff22bee97dcea80af5fc",
+    "sim/golden/repeatability.py": "44e76806d75d98ace1d2ad2d477314e7bad335acc6c751bacb5be010f5bd6c0f",
+    "sim/golden/verify_order1x.py": "55781e700d74aa786def06c3a4fff6b5a868fe8577012347d8d85042119584bd",
+    "sim/golden/order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+    "sim/golden/prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+    "sim/golden/angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+    "sim/golden/tach_review.py": "5228c7909460fcae135d14e8c22d899757ae42f2a7c001efacd2f3aa93ee29d2",
+    "sim/golden/measurement_timing.py": "e3707d02eec4d415ac60ad02185d6015f90252d23c0a46ae4f341f976ddfe428"
+  },
+  "portable_entry_verified": true,
+  "sealed_peer_preflight_verified": true,
+  "sealed_peer_open_called": false,
+  "package": "[local desktop path omitted from public copy]",
+  "package_sha256": "b665401cae0a7a790f11739a73865dfd4cc75db2b05fc8db22ea89657db06c70",
+  "package_bytes": 42303,
+  "package_manifest": {
+    "board/bringup/order1x_accel.py": "a89f4d58bb987934b394c436425d8cd7a8aaccec1871b2cce6fcbbfb5ec7dd29",
+    "board/measure.sh": "fc0a8cdb506c301e313bf6b945f54ed7e8c0e32c457d3f16e1cf278784601d0e",
+    "README.md": "81ba7e25de26ea91baf8d7c60e4d7ee9e6e8b34efde08cde3011245061f08d22",
+    "SETUP.example.json": "60a9f53ffa8d519fbbfe055c639fdab3f00bbb94fa091a4f859d69539e4f02e1",
+    "sim/golden/angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+    "sim/golden/measurement_capture.py": "cfa1a9de0650d0633534645b873f6c55b308ba53b291dafd8f5fc365e87fabc9",
+    "sim/golden/measurement_run.py": "c66510220bb6ebd881592bd5bf105eff6715cbbb7bebe7c41d39119db62cd590",
+    "sim/golden/measurement_timing.py": "e3707d02eec4d415ac60ad02185d6015f90252d23c0a46ae4f341f976ddfe428",
+    "sim/golden/order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+    "sim/golden/phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670",
+    "sim/golden/prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+    "sim/golden/repeatability.py": "44e76806d75d98ace1d2ad2d477314e7bad335acc6c751bacb5be010f5bd6c0f",
+    "sim/golden/sync_csv.py": "a4e3058713e763052c5d8ccc91a9f1500e7e8fe0c41fe957da77d1fa9149da8f",
+    "sim/golden/sync_order.py": "ec553c23741f0e0bf8b5852857b51601ab5e4f44f8dfef26600440413779ba98",
+    "sim/golden/tach_review.py": "5228c7909460fcae135d14e8c22d899757ae42f2a7c001efacd2f3aa93ee29d2",
+    "sim/golden/tacho.py": "e2b053d3c372b6b61a4d949ac4d0003a8fe48a15cc52648e5ab522e898c168df",
+    "sim/golden/timebase.py": "df7401831364acf0027a4600bb33024eebf467cc173aff22bee97dcea80af5fc",
+    "sim/golden/verify_order1x.py": "55781e700d74aa786def06c3a4fff6b5a868fe8577012347d8d85042119584bd"
+  },
+  "pc_cli_one_off_seconds": {
+    "c_old": 2.098212799988687,
+    "c_new": 2.0584359999920707
+  },
+  "benchmark_scope": "PC, per-command interpreter startup plus fixed 8-window processing and diagnostics; concurrently running full tests; no board speed claim",
+  "historical_pair_comparability": "UNKNOWN",
+  "hardware_deployment_complete": false,
+  "fixture_selected": false,
+  "physical_validation_complete": false,
+  "new_physical_captures": 0
+}

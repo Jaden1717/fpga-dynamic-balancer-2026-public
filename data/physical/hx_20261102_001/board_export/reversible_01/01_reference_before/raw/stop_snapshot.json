@@ -1,0 +1,73 @@
+{
+  "format": "hengxin-hxs1-stop-snapshot-v1",
+  "read_only": true,
+  "observations": [
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 32,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 10,
+      "sample_total": 159101,
+      "last_xyz_u32": [
+        4462,
+        615,
+        257337
+      ]
+    },
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 32,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 10,
+      "sample_total": 159101,
+      "last_xyz_u32": [
+        4462,
+        615,
+        257337
+      ]
+    }
+  ],
+  "file_sha256": {
+    "samples.csv": "df30232ce44a4d51077fe1d7ab57bd885b34271e15828d1a01acf46a9260cc1b",
+    "pulses.csv": "7cb52efbb8287711ba999661f2d77dde8de836dfa9b4d3fe532a41fe5095b3cf",
+    "capture.json": "b29b1c95bd3408c348c820ee3152c486b882625074d56ff79be16fb05a912bdb"
+  },
+  "xsa_sha256": "eca1b6e2c84d76b3f1ceabf1e30f4cbe0625e7c9551d2d977f8bfd12633dd08a",
+  "check": {
+    "verdict": "PASS",
+    "samples": 159101,
+    "epoch": 1,
+    "scope": "single-owner HXS1 stop, empty FIFOs, source count/LAST_XYZ and bound raw files",
+    "pulse_count_scope": "CSV continuity and empty FIFO; ABI exposes no independent lifetime pulse total",
+    "physical_phase_validation": false
+  },
+  "verdict": "PASS"
+}

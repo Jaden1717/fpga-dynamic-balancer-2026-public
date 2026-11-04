@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "source_usb_path": "E:\\hx_core_replay_20261101_01\\evidence_fpga_replay_01.tar.gz",
+  "saved_archive": "data\\physical\\HX_20261101_002\\evidence_fpga_replay_01.tar.gz",
+  "archive_sha256": "7fc39917ebbf9a6f94a2f3391ce734dfaf87b4789cf3df030320b0bb6f18bfd5",
+  "archive_bytes": 420341,
+  "regular_files": 31,
+  "all_extracted_bytes_match_archive": true,
+  "packet_manifest_verified": true,
+  "review": "data\\review\\hx_fpga_replay_20261101\\independent_review.json",
+  "new_physical_capture": false
+}

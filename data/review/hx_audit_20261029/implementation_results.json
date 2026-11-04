@@ -1,0 +1,21 @@
+{
+  "tests_passed": 338,
+  "new_behavior_tests_observed_red": 19,
+  "archived_fpga_windows_reverified": 32,
+  "raw_evidence_changed": false,
+  "restored_build_files": 45,
+  "rtl_changed": false,
+  "new_synthesis_or_board_test": false,
+  "v4_board_deployed": false,
+  "primary_estimator_changed": false,
+  "latest_joint_fit_relative_mean_difference": 0.0017609568893082184,
+  "v4_package": "work\\repeatability_tools_20261029_v4.zip",
+  "v4_sha256": "75213dbd463e182a915a084c70e6dbce1d08a33a0da28d4d293a1cce8a0d1570",
+  "physical_validation_complete": false,
+  "correction_allowed": false,
+  "first_full_test_collection_failure": [
+    "work/physical_20261024/software/tests/test_fpga_verification.py",
+    "work/physical_20261024/software/tests/test_physical_quality.py"
+  ],
+  "collection_fix": "pytest.ini: testpaths=tests; both original failure and338-pass logs retained"
+}

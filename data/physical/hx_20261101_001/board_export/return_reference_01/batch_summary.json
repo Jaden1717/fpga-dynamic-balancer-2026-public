@@ -1,0 +1,88 @@
+{
+  "kind": "hengxin-fixed-reference-description-v1",
+  "planned_runs": 3,
+  "completed_runs": 3,
+  "runs": [
+    {
+      "run": 1,
+      "mean_peak_mg": 0.7304422256132868,
+      "within_record_cv": 0.04014450609570114,
+      "rpm_median": 1713.9852771521823,
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "source_sha256": {
+        "samples.csv": "a00a246965c873a8eed5474cf057cf78a8f44221660ebb5e7232e882be415623",
+        "pulses.csv": "00fe79f34a9114b096f7b4abbf22eb2f9f96fb5fd6799a0b635678dfafe95f99",
+        "capture.json": "e6832e67736e2d2c5f6ea63939b86aff0579c3fd4aec5bf3d4ea46d1aa6952fc",
+        "stop_snapshot.json": "0c21b9b7ebb87d262ed17e29ea47de53910b65e23bcf56a8d998d3e22e38fcbe"
+      },
+      "before_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "after_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      }
+    },
+    {
+      "run": 2,
+      "mean_peak_mg": 0.7479127157263834,
+      "within_record_cv": 0.03599248692181792,
+      "rpm_median": 1720.065379685144,
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "source_sha256": {
+        "samples.csv": "0634a52b85065476591c132d2656a5a117643d8043a7a2e6fa9ebf0382e52074",
+        "pulses.csv": "5a23acbb876b738db12db196b902faed025b77813feff09c57fe1fe7905f311d",
+        "capture.json": "6bf69e3a393c871320af99e5a0d93f6c87cd42b32bc8574664944efd3075600e",
+        "stop_snapshot.json": "9ca0758c04f5b40191abc1328b58ac3269b85c66ff29b1899838afe8002821a1"
+      },
+      "before_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "after_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      }
+    },
+    {
+      "run": 3,
+      "mean_peak_mg": 0.7444032825955718,
+      "within_record_cv": 0.048095573554789085,
+      "rpm_median": 1721.5536218046414,
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "source_sha256": {
+        "samples.csv": "3dabc3f1187852f225234ee72e73568ccf5a46097987b1bdbb17dd147fbcdad1",
+        "pulses.csv": "bad574130f8466829d157a6b3a613e4545b50f8338e2c18d9e66553b7c5530b0",
+        "capture.json": "ac7a1a9e29b66429e86e85b0b8c53f5b8128a1070cc9bcac3c399c2aec9e3cf6",
+        "stop_snapshot.json": "45919204b31571d738e572f1b85461e44fe0232cf74484e709d881fe8a5417bc"
+      },
+      "before_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "after_boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      }
+    }
+  ],
+  "mean_of_run_means_mg": 0.7409194079784139,
+  "observed_run_range_mg": 0.01747049011309665,
+  "observed_run_sd_mg": 0.009241620147950746,
+  "scope": "Descriptive pilot only. Range/SD are not confidence bounds or instrument accuracy. All completed runs retained; no automatic extra capture.",
+  "correction_allowed": false,
+  "physical_validation_complete": false
+}

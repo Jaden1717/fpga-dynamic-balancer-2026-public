@@ -1,0 +1,194 @@
+[
+  {
+    "record": "01_reference_before",
+    "start_turn": 0,
+    "real_q8": 33420,
+    "imag_q8": -12026,
+    "amplitude_g": 0.0005419601130230915,
+    "words_sha256": "415904fc27274e2831d3d21a8c86063d336887d4050000cb939f102f872530d6"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 128,
+    "real_q8": 34858,
+    "imag_q8": -10775,
+    "amplitude_g": 0.0005567222646190253,
+    "words_sha256": "d40a6036f484882e98468ac754e4fdd25081aa8253cae0cf625a285b515245f4"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 256,
+    "real_q8": 32900,
+    "imag_q8": -11134,
+    "amplitude_g": 0.0005299823490683745,
+    "words_sha256": "68841c9d41f2a29dee115cdb89e7c8b15396ba3378bd3e1c368ae94dda6650b6"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 384,
+    "real_q8": 32501,
+    "imag_q8": -11196,
+    "amplitude_g": 0.0005245263764803714,
+    "words_sha256": "8edb64af38dc214829e2001722693986cd361871c059ce1458581a099c7250bd"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 512,
+    "real_q8": 32498,
+    "imag_q8": -12784,
+    "amplitude_g": 0.0005328684313564667,
+    "words_sha256": "07f275c7624ed0f496c7baf52bb51568447ad1317b7b05a7fbca5828f6063341"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 640,
+    "real_q8": 35173,
+    "imag_q8": -11880,
+    "amplitude_g": 0.0005664843326630272,
+    "words_sha256": "d1198f2f071d5fe2816c20130fc7c60cd1a44c074a671c17863df06d8f1ff331"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 768,
+    "real_q8": 31674,
+    "imag_q8": -12471,
+    "amplitude_g": 0.0005194196054508268,
+    "words_sha256": "ee66cb992f961cc7fd3ffca904fc439a70b161049fc811d79103306dd798f1ee"
+  },
+  {
+    "record": "01_reference_before",
+    "start_turn": 896,
+    "real_q8": 33352,
+    "imag_q8": -12102,
+    "amplitude_g": 0.0005413783756046601,
+    "words_sha256": "79df07f16725bcb574b51e1713d1ce3555f82051abbf64b7f73c7e1ddd5a406c"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 0,
+    "real_q8": 19206,
+    "imag_q8": 28212,
+    "amplitude_g": 0.0005207669300227352,
+    "words_sha256": "9b4ea543a9294efb058b0577d4586f6761036672d8e742682be31a4413c395ab"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 128,
+    "real_q8": 16616,
+    "imag_q8": 30354,
+    "amplitude_g": 0.0005280195365442884,
+    "words_sha256": "6f8888554b7e60848d83380ec57508ec7d6cbc15e529380806597f59ff2eb6b5"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 256,
+    "real_q8": 17215,
+    "imag_q8": 29802,
+    "amplitude_g": 0.0005251585377312356,
+    "words_sha256": "8f8f6209338ddb1d143f7b2423d68c417bcf5333d1c64614bb199db47549af7e"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 384,
+    "real_q8": 18783,
+    "imag_q8": 30602,
+    "amplitude_g": 0.0005478911438666438,
+    "words_sha256": "0d59c421374d8b3d1b6cb19be6cc16d752d7ed89c8b0513254506cf2f5df0bb0"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 512,
+    "real_q8": 19555,
+    "imag_q8": 29103,
+    "amplitude_g": 0.0005350121026398465,
+    "words_sha256": "218eba658b88a6ee2542c166fa480385731558d86b6077450be8d89070d78b04"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 640,
+    "real_q8": 18279,
+    "imag_q8": 28482,
+    "amplitude_g": 0.0005164026382615034,
+    "words_sha256": "e277274a5408ea58a0ec0daa08e013c5991ce89165135128a14f41487a4579f5"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 768,
+    "real_q8": 18579,
+    "imag_q8": 30650,
+    "amplitude_g": 0.0005468954655104681,
+    "words_sha256": "ef8f81d9b558afaa40909bf6ad7be18028bc0d56f3b2590afc54ad9dedfe25a5"
+  },
+  {
+    "record": "02_trial_A_powered_01",
+    "start_turn": 896,
+    "real_q8": 17303,
+    "imag_q8": 28020,
+    "amplitude_g": 0.0005025018819200951,
+    "words_sha256": "85ccc3f683debe33bcfb086ec8ebb2ff433931a8b143e41d03d6f25a6437f1a7"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 0,
+    "real_q8": 35924,
+    "imag_q8": -27380,
+    "amplitude_g": 0.0006892174217904904,
+    "words_sha256": "18271a26a8d3d3da697ce28c1f15b7676ada4e74807b1200e31b086ffd8c1e01"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 128,
+    "real_q8": 40776,
+    "imag_q8": -27337,
+    "amplitude_g": 0.0007490796985969849,
+    "words_sha256": "c7eb84a5a22db5320df17cbaaf8cb1645452cd73338d343e540fdf4ce727dfbe"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 256,
+    "real_q8": 37104,
+    "imag_q8": -28670,
+    "amplitude_g": 0.0007154852074937767,
+    "words_sha256": "9453a3770a1f334a53db798f7d629f0efdde97c1a59cb0fb6dcd91fc53235b52"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 384,
+    "real_q8": 41424,
+    "imag_q8": -25881,
+    "amplitude_g": 0.0007453061661923485,
+    "words_sha256": "828d829f22637f56018042e4f8caf583b895c87318f2742cd1ad710e85cbdd9c"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 512,
+    "real_q8": 38595,
+    "imag_q8": -24825,
+    "amplitude_g": 0.0007002196038393915,
+    "words_sha256": "38b632e545501c9f3b25b5d7446634bda9cf1b83a534b35190fb1d285dd87556"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 640,
+    "real_q8": 38099,
+    "imag_q8": -27650,
+    "amplitude_g": 0.0007183076046757708,
+    "words_sha256": "1474935ec6ec1d93896645b6c1e7236bec4c7fa59ced52c6da8440bbe1166aea"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 768,
+    "real_q8": 38632,
+    "imag_q8": -26988,
+    "amplitude_g": 0.000719073339481709,
+    "words_sha256": "e4e16d92bf3d5c9136d14f7ba8d79cc7e87e7577b01ff0b4b779593160e07d07"
+  },
+  {
+    "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+    "start_turn": 896,
+    "real_q8": 41588,
+    "imag_q8": -25472,
+    "amplitude_g": 0.0007441510602765039,
+    "words_sha256": "243bf14d6935e529cb58af76fa829c2fbd7ec055e78e3321348cb735b70be967"
+  }
+]

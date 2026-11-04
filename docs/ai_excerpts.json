@@ -1,0 +1,114 @@
+{
+  "scope": "Deidentified necessary visible excerpts only; no full conversations, hidden reasoning or private source paths",
+  "cases": [
+    {
+      "case": "A01",
+      "title": "校验缺口与干净目录复现",
+      "date": "2026-10-29",
+      "quotes": [
+        {
+          "role": "用户提示",
+          "excerpt": "现在重新审查一遍项目进展，看看有什么地方是可能存在疏漏的，有什么地方可以用更好的方法（测试方法、算法等）实现更好效果的。",
+          "excerpt_sha256": "aba89b3a5b11b23bc084771f95428cbfc4458651f820a0e015e96abb4695d78f"
+        },
+        {
+          "role": "模型发现",
+          "excerpt": "浮点幅值校验缺口已用内存反例复现：定点结果保持正确时，把显示幅值改成错误值，旧校验器仍会通过。",
+          "excerpt_sha256": "356a348f0777025e51052e2cbc1777922f857a7b913d24f6c6c232ea50cdbd57"
+        },
+        {
+          "role": "模型报告复现失败",
+          "excerpt": "干净目录验证的首轮被我设置的临时目录参数挡住了，也发现最小输入包漏了一份原有的可选 RTL 测试数据。失败日志已保留；我会补齐输入并修正运行参数，再验证一次。",
+          "excerpt_sha256": "02fbb063152d0f6031ba9e4f7c82ad9e8f8c1b6423604f5299432c1538109b30"
+        },
+        {
+          "role": "模型修正后验证",
+          "excerpt": "干净目录现已复现 **338 项全部通过，没有跳过测试**，源码包和测试输入包已核验。",
+          "excerpt_sha256": "c3cacc56fdb6e887ac8bf3c0239f4277eec1eb3ea0ce79be7394b8586baa06f5"
+        }
+      ],
+      "evidence": [
+        "tests/test_result_consistency.py"
+      ],
+      "source_export_sha256": "a9b0b77d665c077cc05e55a8d998c80529fb930f3e52c21c992b0324bebb4d1f"
+    },
+    {
+      "case": "A02",
+      "title": "保留主算法与区分诊断",
+      "date": "2026-10-30",
+      "quotes": [
+        {
+          "role": "用户约束",
+          "excerpt": "那就不替换主算法，只按照你说的方向改进",
+          "excerpt_sha256": "26652bac0900d710bdde81115cc93c4c16102f34d8f988daab4d0afb68b58eeb"
+        },
+        {
+          "role": "模型承诺",
+          "excerpt": "主算法保持不变。我继续用现有数据评估试重模型对测量波动的敏感性，并补上采集条件与版本的旁证记录；这些改进不涉及重新采集。",
+          "excerpt_sha256": "c6b94075fe68ec2dee8346f8746032efd48fb1ce9db120498f751cf63e23aaa4"
+        },
+        {
+          "role": "模型结果",
+          "excerpt": "已按这个方向完成改进，**主算法及原求解器保持不变，5 份核心文件哈希一致**。",
+          "excerpt_sha256": "af276017632d131e20d5d420303b63bfa92dff884af99e07a67c4285e07e8af6"
+        }
+      ],
+      "evidence": [
+        "data/review/hx_measurement_flow_20261031/validation.json"
+      ],
+      "source_export_sha256": "a9b0b77d665c077cc05e55a8d998c80529fb930f3e52c21c992b0324bebb4d1f"
+    },
+    {
+      "case": "A03",
+      "title": "实际固定C状态纠正",
+      "date": "2026-11-01",
+      "quotes": [
+        {
+          "role": "模型核实问题",
+          "excerpt": "确认本轮状态：这三次是否都在取下胶带后采集，且中途没有重新贴胶带或移动传感器、支架、线缆？",
+          "excerpt_sha256": "90b13a7afc078657edac37d5ae828a37e82b771fe782ba35bff79e56922774ec"
+        },
+        {
+          "role": "用户实际状态",
+          "excerpt": "3次都未取下胶带，胶带在C位置",
+          "excerpt_sha256": "0dad36b6bf9fc7c8889b49a9cbf7f772ba35d84636ead20f031f6e33cdd6348d"
+        },
+        {
+          "role": "模型更正解释",
+          "excerpt": "收到，本轮三次都是**胶带留在 C 位**，我按这个实际状态登记。",
+          "excerpt_sha256": "078721520598b375ede8c7d080a36225ce2bbffe87c6a4d3b6fdefe581cf6455"
+        }
+      ],
+      "evidence": [
+        "data/review/hx_fixed_c_reference_20261101/operator_declaration.json"
+      ],
+      "source_export_sha256": "a9b0b77d665c077cc05e55a8d998c80529fb930f3e52c21c992b0324bebb4d1f"
+    },
+    {
+      "case": "A04",
+      "title": "供电声明约束根因推断",
+      "date": "2026-11-01",
+      "quotes": [
+        {
+          "role": "模型核实问题",
+          "excerpt": "为判断记录间变化的来源，只确认一个操作细节：这五次开关风扇，是在电源侧操作，还是插拔风扇或面包板附近的接头？",
+          "excerpt_sha256": "03fa292164a5cd6b25c0245d09fadcb92383ab91b68b40912f0948dc439c66b3"
+        },
+        {
+          "role": "用户实际操作",
+          "excerpt": "在电源侧开关或插拔，装置端接头不动",
+          "excerpt_sha256": "e02baa63fcaf7dd3fb02adb17071cf1ce2a58648a4bf7b461bd6d069a55d2322"
+        },
+        {
+          "role": "模型更新判断",
+          "excerpt": "收到，供电操作不需要调整。这个细节减少了装置端插拔牵拉的疑点，记录间变化的原因仍未锁定。",
+          "excerpt_sha256": "d3d1c3685eb1af0d5c113cca8c9f7dbeb817bd808a43b3fb79e90856fdf64af1"
+        }
+      ],
+      "evidence": [
+        "data/review/hx_control_result_20261101/power_operation_followup.json"
+      ],
+      "source_export_sha256": "a9b0b77d665c077cc05e55a8d998c80529fb930f3e52c21c992b0324bebb4d1f"
+    }
+  ]
+}

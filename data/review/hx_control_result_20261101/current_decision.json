@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-01",
+  "status": "Five-state batch complete and independently verified; first-baseline model unsupported, no added capture",
+  "report": "report/controlled_trial_result_20261101.md",
+  "archive_sha256": "3937e7d84579e44074dd23d18ea9b51e8d51d9c61a275649f8996a7c1a53ca41",
+  "mean_peak_mg": [
+    0.4068953781045108,
+    1.1890255787488337,
+    0.20020172864438904,
+    1.3107276128312704,
+    0.5750377681302145
+  ],
+  "baseline_change_relative": 0.41323248941529234,
+  "primary_closure": 0.4457868084623566,
+  "after_baseline_diagnostic_closure": 0.0980533624547627,
+  "same_observed_boot": true,
+  "sensor_configuration_same": true,
+  "raw_files_verified": 20,
+  "integer_windows_verified": 40,
+  "new_fpga_executions": 0,
+  "absolute_mass_g": null,
+  "additional_capture_scheduled": false,
+  "physical_validation_complete": false
+}

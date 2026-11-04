@@ -1,0 +1,73 @@
+{
+  "format": "hengxin-hxs1-stop-snapshot-v1",
+  "read_only": true,
+  "observations": [
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 271,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 14,
+      "sample_total": 159085,
+      "last_xyz_u32": [
+        4294952933,
+        1731,
+        262543
+      ]
+    },
+    {
+      "magic": 1213748017,
+      "abi_version": 65536,
+      "sync_ctrl": 0,
+      "sync_status": 6,
+      "clock_hz": 100000000,
+      "sample_depth": 4096,
+      "pulse_depth": 256,
+      "epoch": 1,
+      "sample_pending": 0,
+      "pulse_pending": 0,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "sample_highwater": 271,
+      "pulse_highwater": 1,
+      "source_idle": 1,
+      "source_missed": 0,
+      "acq_ctrl": 0,
+      "acq_status": 14,
+      "sample_total": 159085,
+      "last_xyz_u32": [
+        4294952933,
+        1731,
+        262543
+      ]
+    }
+  ],
+  "file_sha256": {
+    "samples.csv": "b6c8b0793c19ee53c57e470943833431cf7c4ada5cc61adf3d294111971b9e74",
+    "pulses.csv": "dd81a9e1341b500ff91148d74d3e5079cef360af222a8aa40f37c5142587e03a",
+    "capture.json": "7729f9967fd036c15d59da85023ca54a8f6a877a84dd98feee41ae3e025a6068"
+  },
+  "xsa_sha256": "eca1b6e2c84d76b3f1ceabf1e30f4cbe0625e7c9551d2d977f8bfd12633dd08a",
+  "check": {
+    "verdict": "PASS",
+    "samples": 159085,
+    "epoch": 1,
+    "scope": "single-owner HXS1 stop, empty FIFOs, source count/LAST_XYZ and bound raw files",
+    "pulse_count_scope": "CSV continuity and empty FIFO; ABI exposes no independent lifetime pulse total",
+    "physical_phase_validation": false
+  },
+  "verdict": "PASS"
+}

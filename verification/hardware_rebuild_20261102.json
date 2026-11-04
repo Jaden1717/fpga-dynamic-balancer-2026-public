@@ -1,0 +1,147 @@
+{
+  "kind": "clean-vivado-guide-remediation-rebuild-v1",
+  "date": "2026-11-02",
+  "created_utc": "2026-11-02T14:46:55.522271+00:00",
+  "source_commit_before_report_import": "e8b1d12e1d6f0e81295a4185f807239a5838571c",
+  "tool_version": "Vivado 2026.1 build 6511674",
+  "device": "xc7z020clg400-1",
+  "build_root": "C:/AMD/hx_guide_rebuild_20261102_01",
+  "source_copy_byte_identity_verified": true,
+  "board_dependency": "third_party/pynq_z2_board_files.json; pinned upstream archive and four members",
+  "new_board_execution": false,
+  "sealed_images_replaced": false,
+  "physical_balance_complete": false,
+  "scope": "Clean synthesis, placement, routing, bitstream and XSA generation. Internal timing closed. DRC and PS preset warnings retained; external IO timing and new-image board validation are not signed off.",
+  "designs": [
+    {
+      "design": "acq_sync",
+      "state": "routed and bitstream/XSA generated",
+      "clock_mhz": 100,
+      "wns_ns": 0.941,
+      "whs_ns": 0.044,
+      "tns_ns": 0.0,
+      "ths_ns": 0.0,
+      "lut": 2039,
+      "ff": 2419,
+      "bram_tile": 27.5,
+      "dsp": 0,
+      "drc_checks_found": 42,
+      "drc_summary": [
+        {
+          "rule": "CHECK-3",
+          "severity": "Warning",
+          "description": "Report rule limit reached",
+          "checks": 2
+        },
+        {
+          "rule": "REQP-1839",
+          "severity": "Warning",
+          "description": "RAMB36 async control check",
+          "checks": 20
+        },
+        {
+          "rule": "REQP-1840",
+          "severity": "Warning",
+          "description": "RAMB18 async control check",
+          "checks": 20
+        }
+      ],
+      "log_critical_warning_codes": [
+        "BD 41-737",
+        "Netlist 29-160",
+        "PSU-1",
+        "PSU-2",
+        "PSU-3",
+        "PSU-4"
+      ],
+      "no_input_delay_checks": 3,
+      "no_output_delay_checks": 3,
+      "source_sha256": {
+        "build/overlay/acq_sync.tcl": "b9dc8c0238f7b41dcc7090a4cf9f58ba6f0a43264147d9a53fa9d3ceaee48108",
+        "build/overlay/ps7_cfg.tcl": "0359a8d1d3cd7fa1a6f75522451a51818c06e1f0aa48535b2fa90329d6a9b272",
+        "build/rtl/adxl355_acq.v": "cb9ee8a7ffad76ff6662759857599b24a2743bb4c783e1e42173a60f4a15df3d",
+        "build/rtl/capture_timebase.v": "590df630efc7cd215a3ad5e1f8f97e945d820f92aa21ce140b4a4726fd0ab722",
+        "build/rtl/tacho_timestamp.v": "82539dfdf6fe9574d0b67d74cb96c517e34dcc702726862a3538747d0bf9126f",
+        "build/rtl/capture_fifo.v": "f10e7875e823a60272ca40651b7842909e6ab968bfded2c62f7f5211fcb3cb3c",
+        "build/rtl/sync_capture_axi.v": "f7d695f68a301ea5887a4123c566e6ae57be18a376d6af2b13a48407564654c8",
+        "build/overlay/acq_sync.xdc": "4354534b81c56ecbb221039ddab89434218ed726e8166bbb26da59b5c0b5c6d7"
+      },
+      "reports_sha256": {
+        "build/reports/rebuild_20261102/acq_sync_timing_summary.rpt": "7b2ee44c0032c075bc204ac6e3d70329150afd509e6046050b2dd5eeb4950aa5",
+        "build/reports/rebuild_20261102/acq_sync_utilization.rpt": "80425ec44b8d5b9905faddf05876d92ccfeb5a3a6aae5a3ef4b13bb9aa3c6a83",
+        "build/reports/rebuild_20261102/acq_sync_drc.rpt": "96c942f40d59004d161cc53dd80c5d1225434b55c2f3481d27c77d1694b4da26"
+      },
+      "local_artifacts": {
+        "acq_sync.bit": {
+          "bytes": 4045771,
+          "sha256": "2113e85ee96f6dce31d80089b75bc782aa6d57c7be8a469779b0291055a9ab99"
+        },
+        "acq_sync.xsa": {
+          "bytes": 577608,
+          "sha256": "e2fb32016764d27565fa8e266af455e099f55be0e2399c16755d5cfaa1c1fc6e"
+        }
+      }
+    },
+    {
+      "design": "order1x",
+      "state": "routed and bitstream/XSA generated",
+      "clock_mhz": 100,
+      "wns_ns": 0.718,
+      "whs_ns": 0.061,
+      "tns_ns": 0.0,
+      "ths_ns": 0.0,
+      "lut": 2240,
+      "ff": 1465,
+      "bram_tile": 0.0,
+      "dsp": 2,
+      "drc_checks_found": 6,
+      "drc_summary": [
+        {
+          "rule": "DPIP-1",
+          "severity": "Warning",
+          "description": "Input pipelining",
+          "checks": 4
+        },
+        {
+          "rule": "DPOP-2",
+          "severity": "Warning",
+          "description": "MREG Output pipelining",
+          "checks": 2
+        }
+      ],
+      "log_critical_warning_codes": [
+        "BD 41-737",
+        "Netlist 29-160",
+        "PSU-1",
+        "PSU-2",
+        "PSU-3",
+        "PSU-4"
+      ],
+      "no_input_delay_checks": 0,
+      "no_output_delay_checks": 0,
+      "source_sha256": {
+        "build/overlay/order1x.tcl": "15d2288d11ea9499c7ccaad0873312fdc201a3a735278042361d495b3d3d1d0e",
+        "build/overlay/ps7_cfg.tcl": "0359a8d1d3cd7fa1a6f75522451a51818c06e1f0aa48535b2fa90329d6a9b272",
+        "build/rtl/order1x_accumulator.v": "3dfd1aface16e4e67909c030b83ed044fee9a845187dafc31bf7fbc13837ee71",
+        "build/rtl/cordic_vectoring.v": "6e63c8c52768e73c131dab1e0e65d3933fed0d798685bbcc55c1ac98cf099b1c",
+        "build/rtl/order1x_core.v": "b8518bef8a2c2720ad585687cf9b9dff6a6fed527b028911c89a16332c2cdeed",
+        "build/rtl/order1x_axi.v": "c7072885cb504f43d842928caf9f241a36c92167e627ae1c9f5f216442cc1d01"
+      },
+      "reports_sha256": {
+        "build/reports/rebuild_20261102/order1x_timing_summary.rpt": "06abd8154ebeca520d35e5ee8a0afb95eff3abb54c767fca63b9042aac11d096",
+        "build/reports/rebuild_20261102/order1x_utilization.rpt": "5354a866d06be89bed5c8109aac1fbcd935dc1c0a472d499546012f54ce89477",
+        "build/reports/rebuild_20261102/order1x_drc.rpt": "8d5901cdbdd4001321b1913ff38797b4b66bdaa5a0e086aaa39bdc94eed97fb0"
+      },
+      "local_artifacts": {
+        "order1x.bit": {
+          "bytes": 4045771,
+          "sha256": "30d23d15bfcf56c2a4e3ea567363aeddc2af6d3d355e47ecabccf036553ceb18"
+        },
+        "order1x.xsa": {
+          "bytes": 550999,
+          "sha256": "69846abec9038e97b0b114ee3f1154fb7a997b9418e9649358e6555e90ca5738"
+        }
+      }
+    }
+  ]
+}

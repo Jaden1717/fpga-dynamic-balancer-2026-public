@@ -1,0 +1,10 @@
+state=01_reference_before placement_response=READY
+state=01_reference_before operator_confirmed_fan_off_and_stopped
+state=02_trial_000 placement_response=READY
+state=02_trial_000 operator_confirmed_fan_off_and_stopped
+state=03_trial_120 placement_response=READY
+state=03_trial_120 operator_confirmed_fan_off_and_stopped
+state=04_trial_240 placement_response=READY
+state=04_trial_240 operator_confirmed_fan_off_and_stopped
+state=05_reference_after placement_response=READY
+state=05_reference_after operator_confirmed_fan_off_and_stopped

@@ -1,0 +1,15 @@
+{
+  "local_pdf_sha256": "c6ad82acd4f7bdcd13bd412e232ed85d05f2a87dd5e2cdd04f9d219f88b569fc",
+  "physical_pages_reviewed": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "submission_and_score_pages_rendered": [
+    24,
+    25
+  ],
+  "sealed_compute_xsa_generator": "Vivado2026.1 CL6511674, internal xsa.xml",
+  "authority_scope": "local guide copy only; current official schedule not revalidated"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "FAILED",
+  "error_type": "RuntimeError",
+  "error": "capture or stopped evidence failed; raw data retained; no retry",
+  "automatic_recapture": false,
+  "correction_allowed": false,
+  "timings": {
+    "total_wall_seconds": 23.134370777999948,
+    "stages": {
+      "capture_overlay_load": {
+        "calls": 1,
+        "wall_seconds": 9.474113919000047
+      },
+      "sensor_initialization_and_readback": {
+        "calls": 1,
+        "wall_seconds": 0.012653322999994998
+      },
+      "capture_initialize_acquire_drain_save": {
+        "calls": 1,
+        "wall_seconds": 13.195312503999958
+      },
+      "stop_snapshot": {
+        "calls": 1,
+        "wall_seconds": 0.39301073199999337
+      }
+    },
+    "fpga_windows": [],
+    "semantics": "Wall times include Python/MMIO overhead. Nested stages overlap; do not sum them. Result wait is not pure PL latency. Instrumentation overhead is included."
+  }
+}

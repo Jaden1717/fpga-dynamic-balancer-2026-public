@@ -1,0 +1,232 @@
+{
+  "package_path": "D:\\FPGA\u5d4c\u8d5b\\work\\order1x_20261015\\hx_order1x_update_20261015.zip",
+  "package_sha256": "d877ab7ff98fee642d164ed189cec21e61b9bdec3333510a22a2cb9a5e606e5e",
+  "restoration": "original verified project sources; no RTL edits, synthesis, simulation or board deployment in this restoration",
+  "files": [
+    {
+      "path": "build/README.md",
+      "sha256": "0092f5b76be4b06b6b70da89f6dec4c3556c0286501daac8b18871e4120ad99b",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/README.md"
+    },
+    {
+      "path": "build/overlay/acq.tcl",
+      "sha256": "23b65b5e05206244d63338c7aa43cf97861617071276d5c00ba26a87c3903453",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/acq.tcl"
+    },
+    {
+      "path": "build/overlay/acq.xdc",
+      "sha256": "664102e58c80c612b288f07ee69b87b2c0808c4fb24114841373f0caab825acf",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/acq.xdc"
+    },
+    {
+      "path": "build/overlay/acq_sync.tcl",
+      "sha256": "337fb701cf9277dd4eedc8ddd298240167a729fc3b429c523d8ec6850e6de7a7",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/acq_sync.tcl"
+    },
+    {
+      "path": "build/overlay/acq_sync.xdc",
+      "sha256": "4354534b81c56ecbb221039ddab89434218ed726e8166bbb26da59b5c0b5c6d7",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/acq_sync.xdc"
+    },
+    {
+      "path": "build/overlay/board_files/pynq-z2/A.0/board.xml",
+      "sha256": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/board_files/pynq-z2/A.0/board.xml"
+    },
+    {
+      "path": "build/overlay/board_files/pynq-z2/A.0/part0_pins.xml",
+      "sha256": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/board_files/pynq-z2/A.0/part0_pins.xml"
+    },
+    {
+      "path": "build/overlay/board_files/pynq-z2/A.0/preset.xml",
+      "sha256": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/board_files/pynq-z2/A.0/preset.xml"
+    },
+    {
+      "path": "build/overlay/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "sha256": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/board_files/pynq-z2/A.0/pynq_z2.jpg"
+    },
+    {
+      "path": "build/overlay/bringup.tcl",
+      "sha256": "3f8ea8b063f7a6c1bc607d4bccdf9e92b9ea7d859700eb2a4eca80791a1f180e",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/bringup.tcl"
+    },
+    {
+      "path": "build/overlay/bringup.xdc",
+      "sha256": "3d036f20d32a85fe1986e6aab867aec57ff005823111be773d5ec6f392e2c792",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/bringup.xdc"
+    },
+    {
+      "path": "build/overlay/gen_ps7_tcl.py",
+      "sha256": "5f0ec2eeabbbca730366e5914cd7c983d4c2865b57c50b767c3a9e6a50639905",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/gen_ps7_tcl.py"
+    },
+    {
+      "path": "build/overlay/order1x.tcl",
+      "sha256": "6c7313f5f6021cd3d9406eb95dd8eea4a3922972ebee5edd71f09e385cb8cb41",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/order1x.tcl"
+    },
+    {
+      "path": "build/overlay/ps7_cfg.tcl",
+      "sha256": "0359a8d1d3cd7fa1a6f75522451a51818c06e1f0aa48535b2fa90329d6a9b272",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/overlay/ps7_cfg.tcl"
+    },
+    {
+      "path": "build/rtl/adxl355_acq.v",
+      "sha256": "cb9ee8a7ffad76ff6662759857599b24a2743bb4c783e1e42173a60f4a15df3d",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/adxl355_acq.v"
+    },
+    {
+      "path": "build/rtl/capture_fifo.v",
+      "sha256": "f10e7875e823a60272ca40651b7842909e6ab968bfded2c62f7f5211fcb3cb3c",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/capture_fifo.v"
+    },
+    {
+      "path": "build/rtl/capture_timebase.v",
+      "sha256": "590df630efc7cd215a3ad5e1f8f97e945d820f92aa21ce140b4a4726fd0ab722",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/capture_timebase.v"
+    },
+    {
+      "path": "build/rtl/cordic_vectoring.v",
+      "sha256": "6e63c8c52768e73c131dab1e0e65d3933fed0d798685bbcc55c1ac98cf099b1c",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/cordic_vectoring.v"
+    },
+    {
+      "path": "build/rtl/order1x_accumulator.v",
+      "sha256": "3dfd1aface16e4e67909c030b83ed044fee9a845187dafc31bf7fbc13837ee71",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/order1x_accumulator.v"
+    },
+    {
+      "path": "build/rtl/order1x_axi.v",
+      "sha256": "c7072885cb504f43d842928caf9f241a36c92167e627ae1c9f5f216442cc1d01",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/order1x_axi.v"
+    },
+    {
+      "path": "build/rtl/order1x_core.v",
+      "sha256": "b8518bef8a2c2720ad585687cf9b9dff6a6fed527b028911c89a16332c2cdeed",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/order1x_core.v"
+    },
+    {
+      "path": "build/rtl/run_acq_sync_sim.tcl",
+      "sha256": "02f127077f28cb6d7dfaa60e01e38ec22cd3fab2c1c44eab286f889989efb0aa",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_acq_sync_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_axi_sim.tcl",
+      "sha256": "6534d50abebf4e183456b9915455ca364bcf57683e2c8e8e056866f771e3911f",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_axi_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_cordic_sim.tcl",
+      "sha256": "6b562244cca57879dddfd19f323ae93f9807a4c2261d466251cc9d4d8bd6db7e",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_cordic_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_order1x_accumulator_sim.tcl",
+      "sha256": "cd138458d7777277e27ea553a13bad811f6e01e1448157b6a4d15e33c24103c0",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_order1x_accumulator_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_order1x_axi_sim.tcl",
+      "sha256": "148f06e7f5782a89efa33948be87a951119429a6826146967702ccdd136eda2e",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_order1x_axi_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_order1x_synth.tcl",
+      "sha256": "ef27a56a595c3865f582d247eaa54af95028fc4fd0747d6cf9ac9c50e5d99645",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_order1x_synth.tcl"
+    },
+    {
+      "path": "build/rtl/run_order1x_vector_sim.tcl",
+      "sha256": "5cf903c9bb2a5f1f6a6722885da081a1cf3533948507ae63db25b02be4f50706",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_order1x_vector_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_sideband_sim.tcl",
+      "sha256": "969569f270675b81830111d5f81bec5fb15c076ef60f889c650a966c05317107",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_sideband_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_sim.tcl",
+      "sha256": "685059988b9abb16f918c8e739aa2375be61f9ecf9174a32882e01fe51068807",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_sync_axi_sim.tcl",
+      "sha256": "12eb54a7a21f95399edc458230c6c772d1c612c252737333e03c4285313429f7",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_sync_axi_sim.tcl"
+    },
+    {
+      "path": "build/rtl/run_synth_check.tcl",
+      "sha256": "d3b101dec63bbe2f2587f705ff3176cdd3642987e14d638080b5e14aaa566087",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_synth_check.tcl"
+    },
+    {
+      "path": "build/rtl/run_tacho_sim.tcl",
+      "sha256": "171af6a4ff4fd56b885eb8ce36436403d9e3fe62bc71ac81182edc77b63bfd9e",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/run_tacho_sim.tcl"
+    },
+    {
+      "path": "build/rtl/sync_capture_axi.v",
+      "sha256": "f7d695f68a301ea5887a4123c566e6ae57be18a376d6af2b13a48407564654c8",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/sync_capture_axi.v"
+    },
+    {
+      "path": "build/rtl/tacho_timestamp.v",
+      "sha256": "82539dfdf6fe9574d0b67d74cb96c517e34dcc702726862a3538747d0bf9126f",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tacho_timestamp.v"
+    },
+    {
+      "path": "build/rtl/tb_acq_sync.v",
+      "sha256": "bfeea237b66ab2c9bcefad693b508e15f6894fc82a9c63b173bb2c552bcf9206",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_acq_sync.v"
+    },
+    {
+      "path": "build/rtl/tb_adxl355_acq.v",
+      "sha256": "67ca4b6a0deb8bc48260923295c8a12943559e6dfaf33478d7d84ec9eebcaeb8",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_adxl355_acq.v"
+    },
+    {
+      "path": "build/rtl/tb_adxl355_axi.v",
+      "sha256": "b2ee9e4dcef7b4effc7e858e5d5ca7ebccb0d7757e56bb38f6dee11e9fa2344d",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_adxl355_axi.v"
+    },
+    {
+      "path": "build/rtl/tb_adxl355_sideband.v",
+      "sha256": "6cf78cbbc1e50951f517ced085dda44e6061516f550404f9093a63ae05f113c2",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_adxl355_sideband.v"
+    },
+    {
+      "path": "build/rtl/tb_cordic_vectoring.v",
+      "sha256": "5c6dc3fa14a6ca5aa4e5b7eb347ff38b0807d7934c80278874604365fddef1ae",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_cordic_vectoring.v"
+    },
+    {
+      "path": "build/rtl/tb_order1x_accumulator.v",
+      "sha256": "96e029a3f02151b97ed6ea8884cee61bfa385bdf6a54d29a6b43cda63c7a008d",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_order1x_accumulator.v"
+    },
+    {
+      "path": "build/rtl/tb_order1x_axi.v",
+      "sha256": "dd8d04b3bfa681f6efead6c34abcaf694c21227969e1b7f1c94bc7f90136cecc",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_order1x_axi.v"
+    },
+    {
+      "path": "build/rtl/tb_order1x_vectors.v",
+      "sha256": "8e8c289f42a598583ebdf388420e10cd26112d2995b318ad9dcae9a7561558cf",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_order1x_vectors.v"
+    },
+    {
+      "path": "build/rtl/tb_sync_capture_axi.v",
+      "sha256": "557ea47b2803ec3682cb2228bab338cafe60026c5b1a800ee70e6c021e7e30fb",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_sync_capture_axi.v"
+    },
+    {
+      "path": "build/rtl/tb_tacho_timestamp.v",
+      "sha256": "dfbb7cb5670df41915647b3d7c23392a3cf883ec3f32db224e1ff08121ad5193",
+      "archive_entry": "hx_order1x_update_20261015/01_PROJECT/build/rtl/tb_tacho_timestamp.v"
+    }
+  ]
+}

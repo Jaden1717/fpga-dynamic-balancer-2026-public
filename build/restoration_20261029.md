@@ -1,0 +1,3 @@
+# 构建来源恢复
+45份相关文件从已校验的本项目历史交付ZIP恢复，身份见SOURCE_PROVENANCE_20261029.json。原RTL、脚本、板卡文件及README保留原字节；原README中的历史状态不覆盖仓库最新交接。
+没有复制XSA/bitstream，也未重新运行综合或宣称新的RTL签核。构建需要匹配Vivado与PYNQ-Z2 board files；脚本默认C:/AMD路径属于历史构建约定，部分脚本可传输出目录，按具体脚本执行。已有实板证据对应封存XSA，不能把源文件恢复称为新位流验收。

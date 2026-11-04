@@ -1,0 +1,54 @@
+{
+  "kind": "hengxin-runtime-context-v1",
+  "before": {
+    "boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+    "uptime_seconds": 855.3,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "after": {
+    "boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+    "uptime_seconds": 911.45,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "initialization_id": "a8c44ca8-9827-4acb-a35f-671266b03489",
+  "driver_sha256": {
+    "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+    "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+    "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+  },
+  "sensor_configuration": {
+    "verified": true,
+    "registers": {
+      "DEVID": 173,
+      "FILTER": 0,
+      "RANGE": 129,
+      "POWER_CTL": 0
+    },
+    "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+  },
+  "source_sha256": {
+    "samples.csv": "0bfed09216ad2efbc09aad540a61c7ebcad12532040c9f6df1c864a20086f7de",
+    "pulses.csv": "561d10a73a430214e874c61159283ed2a629cd004e1fe137c13d5c4bf93bc641",
+    "capture.json": "db459ede0b5f8085dc07db7559fd1566acde60485eb26cb6017eafef73b572fd",
+    "stop_snapshot.json": "f7533076a5724a570bff638b93144b3c339994613ef05785c7834d39ba979e6b"
+  },
+  "source_declaration": "fan-tach-2ppr",
+  "declared_setup": {
+    "fixture_id": "reinforced_original_20261101_01",
+    "sensor_mount_id": "unchanged_reinforced_mount_20261101_01",
+    "cable_relief": "operator-declared no touch or cable pull during trial access",
+    "environment": null,
+    "trial_position": "p120",
+    "trial_mass_g": null,
+    "trial_radius_mm": 40,
+    "power_setting": null
+  },
+  "setup_verified_by_software": false,
+  "observation": "contemporaneous software observations plus operator declarations; no physical setup verification"
+}

@@ -1,0 +1,96 @@
+{
+  "axis": "z",
+  "method": "aa128-to64",
+  "start_turns": [
+    0,
+    128,
+    256,
+    384,
+    512,
+    640,
+    768,
+    896
+  ],
+  "turns_per_window": 128,
+  "amplitudes_g": [
+    0.0007258758544921875,
+    0.0006921539306640625,
+    0.00076190185546875,
+    0.000721099853515625,
+    0.0006914825439453125,
+    0.0007279815673828125,
+    0.0007611846923828125,
+    0.0007618408203125
+  ],
+  "mean_peak_mg": 0.7304401397705078,
+  "cv": 0.04014378137407138,
+  "rpm_median": 1713.9852771521823,
+  "within_record_repeatability_pass": true,
+  "criteria": {
+    "cv_limit": 0.1,
+    "mean_relative_difference_limit": 0.1,
+    "rpm_relative_difference_limit": 0.01,
+    "note": "Stage engineering screens, not confidence bounds or instrument specifications"
+  },
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "source_capture_directory": "/mnt/hxusb/hx_deadline_20261031_01/return_reference_01/run_01/raw",
+  "source_sha256": {
+    "samples.csv": "a00a246965c873a8eed5474cf057cf78a8f44221660ebb5e7232e882be415623",
+    "pulses.csv": "00fe79f34a9114b096f7b4abbf22eb2f9f96fb5fd6799a0b635678dfafe95f99",
+    "capture.json": "e6832e67736e2d2c5f6ea63939b86aff0579c3fd4aec5bf3d4ea46d1aa6952fc",
+    "stop_snapshot.json": "0c21b9b7ebb87d262ed17e29ea47de53910b65e23bcf56a8d998d3e22e38fcbe"
+  },
+  "amplitude_source": "FPGA verified same-input",
+  "hardware_windows_verified": 8,
+  "windows": [
+    {
+      "start_turn": 0,
+      "reference_amplitude_g": 0.0007258814023050795,
+      "start_tick": 56372331,
+      "end_tick": 505307423
+    },
+    {
+      "start_turn": 128,
+      "reference_amplitude_g": 0.0006921589856808238,
+      "start_tick": 505307423,
+      "end_tick": 953629149
+    },
+    {
+      "start_turn": 256,
+      "reference_amplitude_g": 0.0007618953978370202,
+      "start_tick": 953629149,
+      "end_tick": 1401863496
+    },
+    {
+      "start_turn": 384,
+      "reference_amplitude_g": 0.0007211033427387209,
+      "start_tick": 1401863496,
+      "end_tick": 1850053887
+    },
+    {
+      "start_turn": 512,
+      "reference_amplitude_g": 0.0006914782628041488,
+      "start_tick": 1850053887,
+      "end_tick": 2298551199
+    },
+    {
+      "start_turn": 640,
+      "reference_amplitude_g": 0.0007279815968072096,
+      "start_tick": 2298551199,
+      "end_tick": 2746598095
+    },
+    {
+      "start_turn": 768,
+      "reference_amplitude_g": 0.0007611909329067843,
+      "start_tick": 2746598095,
+      "end_tick": 3194502169
+    },
+    {
+      "start_turn": 896,
+      "reference_amplitude_g": 0.0007618478838265063,
+      "start_tick": 3194502169,
+      "end_tick": 3642371063
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-01",
+  "source": "direct operator answer",
+  "operator_statement": "在电源侧开关或插拔，装置端接头不动",
+  "device_side_connector_unchanged_reported": true,
+  "inference": "Does not support device-side connector insertion as the reported action; does not establish fixed pose, bias or thermal state.",
+  "additional_capture_scheduled": false
+}

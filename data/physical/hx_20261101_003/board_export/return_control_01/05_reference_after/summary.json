@@ -1,0 +1,219 @@
+{
+  "kind": "hengxin-measurement-summary-v1",
+  "data_integrity": "PASS",
+  "protocol": {
+    "method": "aa128-to64",
+    "axis": "z",
+    "avg_log2": 7,
+    "start_turns": [
+      0,
+      128,
+      256,
+      384,
+      512,
+      640,
+      768,
+      896
+    ]
+  },
+  "source_sha256": {
+    "samples.csv": "be517125d9217e44268a8a00e6dbbe3212f7dd38a44eb882be76b2d192ee1a7d",
+    "pulses.csv": "67d3ac3c72c2bc9b584068935972bcc28b2fde8d70e87b93fc9864203f852bd3",
+    "capture.json": "41852586077ccacdeb8f22dd6f9e8ee1116ab1c203ef7f4617efa5c74c587a33",
+    "stop_snapshot.json": "9cd7c2c8b57c1f96f8255c08541f47d66935778fd312da5e027599f5abbda302"
+  },
+  "analysis_identity": {
+    "angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+    "order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+    "prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+    "phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670"
+  },
+  "measurement": {
+    "axis": "z",
+    "method": "aa128-to64",
+    "start_turns": [
+      0,
+      128,
+      256,
+      384,
+      512,
+      640,
+      768,
+      896
+    ],
+    "turns_per_window": 128,
+    "amplitudes_g": [
+      0.0005739782524723433,
+      0.0005711177161415596,
+      0.0005819839429911481,
+      0.0005889506828444422,
+      0.0005554232823616064,
+      0.0005786459048445961,
+      0.0005633443622773588,
+      0.0005868580011086605
+    ],
+    "mean_peak_mg": 0.5750377681302145,
+    "cv": 0.0200715520891312,
+    "rpm_median": 1747.332260471345,
+    "within_record_repeatability_pass": true,
+    "criteria": {
+      "cv_limit": 0.1,
+      "mean_relative_difference_limit": 0.1,
+      "rpm_relative_difference_limit": 0.01,
+      "note": "Stage engineering screens, not confidence bounds or instrument specifications"
+    },
+    "correction_allowed": false,
+    "physical_validation_complete": false,
+    "source_capture_directory": "/mnt/hxusb/hx_control_20261101_01/return_control_01/05_reference_after/raw",
+    "source_sha256": {
+      "samples.csv": "be517125d9217e44268a8a00e6dbbe3212f7dd38a44eb882be76b2d192ee1a7d",
+      "pulses.csv": "67d3ac3c72c2bc9b584068935972bcc28b2fde8d70e87b93fc9864203f852bd3",
+      "capture.json": "41852586077ccacdeb8f22dd6f9e8ee1116ab1c203ef7f4617efa5c74c587a33",
+      "stop_snapshot.json": "9cd7c2c8b57c1f96f8255c08541f47d66935778fd312da5e027599f5abbda302"
+    },
+    "amplitude_source": "CPU reference (not new FPGA evidence)",
+    "hardware_windows_verified": 0,
+    "windows": [
+      {
+        "start_turn": 0,
+        "reference_amplitude_g": 0.0005739782524723433,
+        "start_tick": 58327659,
+        "end_tick": 498257171
+      },
+      {
+        "start_turn": 128,
+        "reference_amplitude_g": 0.0005711177161415596,
+        "start_tick": 498257171,
+        "end_tick": 937702852
+      },
+      {
+        "start_turn": 256,
+        "reference_amplitude_g": 0.0005819839429911481,
+        "start_tick": 937702852,
+        "end_tick": 1376783252
+      },
+      {
+        "start_turn": 384,
+        "reference_amplitude_g": 0.0005889506828444422,
+        "start_tick": 1376783252,
+        "end_tick": 1816828049
+      },
+      {
+        "start_turn": 512,
+        "reference_amplitude_g": 0.0005554232823616064,
+        "start_tick": 1816828049,
+        "end_tick": 2256144649
+      },
+      {
+        "start_turn": 640,
+        "reference_amplitude_g": 0.0005786459048445961,
+        "start_tick": 2256144649,
+        "end_tick": 2696479653
+      },
+      {
+        "start_turn": 768,
+        "reference_amplitude_g": 0.0005633443622773588,
+        "start_tick": 2696479653,
+        "end_tick": 3135934457
+      },
+      {
+        "start_turn": 896,
+        "reference_amplitude_g": 0.0005868580011086605,
+        "start_tick": 3135934457,
+        "end_tick": 3574566293
+      }
+    ]
+  },
+  "absolute_sd_mg": 0.011541900516243346,
+  "raw_statistics": {
+    "sample_count": 159084,
+    "dc_g": {
+      "x": -0.05080172132430823,
+      "y": 0.008267213022090531,
+      "z": 1.0137533879998146
+    },
+    "min_raw": {
+      "x": -22415,
+      "y": -6765,
+      "z": 247879
+    },
+    "max_raw": {
+      "x": -4518,
+      "y": 12048,
+      "z": 268897
+    },
+    "scope": "all saved samples, separate from fixed angle windows; DC is not a calibrated tilt measurement"
+  },
+  "runtime_context": {
+    "kind": "hengxin-runtime-context-v1",
+    "before": {
+      "boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "uptime_seconds": 1236.97,
+      "read_errors": [],
+      "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+      "python_version": "3.10.4",
+      "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+    },
+    "after": {
+      "boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "uptime_seconds": 1293.41,
+      "read_errors": [],
+      "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+      "python_version": "3.10.4",
+      "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+    },
+    "initialization_id": "aa868bf8-9599-417c-8c71-f2b434345588",
+    "driver_sha256": {
+      "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+      "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+      "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+    },
+    "sensor_configuration": {
+      "verified": true,
+      "registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+    },
+    "source_sha256": {
+      "samples.csv": "be517125d9217e44268a8a00e6dbbe3212f7dd38a44eb882be76b2d192ee1a7d",
+      "pulses.csv": "67d3ac3c72c2bc9b584068935972bcc28b2fde8d70e87b93fc9864203f852bd3",
+      "capture.json": "41852586077ccacdeb8f22dd6f9e8ee1116ab1c203ef7f4617efa5c74c587a33",
+      "stop_snapshot.json": "9cd7c2c8b57c1f96f8255c08541f47d66935778fd312da5e027599f5abbda302"
+    },
+    "source_declaration": "fan-tach-2ppr",
+    "declared_setup": {
+      "fixture_id": "reinforced_original_20261101_01",
+      "sensor_mount_id": "unchanged_reinforced_mount_20261101_01",
+      "cable_relief": "operator-declared no touch or cable pull during trial access",
+      "environment": null,
+      "trial_position": "none",
+      "trial_mass_g": 0,
+      "trial_radius_mm": null,
+      "power_setting": null
+    },
+    "setup_verified_by_software": false,
+    "observation": "contemporaneous software observations plus operator declarations; no physical setup verification"
+  },
+  "automatic_recapture": false,
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "timings": {
+    "total_wall_seconds": 51.96670450700003,
+    "stages": {
+      "preparation": {
+        "calls": 1,
+        "wall_seconds": 40.711466234
+      },
+      "raw_statistics": {
+        "calls": 1,
+        "wall_seconds": 11.0458631649999
+      }
+    },
+    "fpga_windows": [],
+    "semantics": "Wall times include Python/MMIO overhead. Nested stages overlap; do not sum them. Result wait is not pure PL latency. Instrumentation overhead is included."
+  }
+}

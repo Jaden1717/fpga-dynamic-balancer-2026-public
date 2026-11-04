@@ -1,0 +1,54 @@
+{
+  "kind": "hengxin-runtime-context-v1",
+  "before": {
+    "boot_id": "9eb9e21d-3d03-4363-8064-9ea5bedf579e",
+    "uptime_seconds": 1815.63,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "after": {
+    "boot_id": "9eb9e21d-3d03-4363-8064-9ea5bedf579e",
+    "uptime_seconds": 1838.75,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "initialization_id": "050c288c-88a6-4ae4-992e-b2ac46717fa0",
+  "driver_sha256": {
+    "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+    "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+    "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+  },
+  "sensor_configuration": {
+    "verified": true,
+    "registers": {
+      "DEVID": 173,
+      "FILTER": 0,
+      "RANGE": 129,
+      "POWER_CTL": 0
+    },
+    "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+  },
+  "source_sha256": {
+    "samples.csv": "ed36f5ac17fceb39d69d209aa26bbdf6d01d26979fc46b28a2cadbbff98e3346",
+    "pulses.csv": "c5331067804c25566fb75068733568fd8a792ba419450dfe29743f49d044d3d7",
+    "capture.json": "fb5b2d4ebca3da9e974fe4cdb8e8da99d34180bf059dc23ea8aad47b30e1fb1f",
+    "stop_snapshot.json": "9ef6763281e52bf531335a49277147b323d9455921245eaab900919ecf961e17"
+  },
+  "source_declaration": "fan-tach-2ppr",
+  "declared_setup": {
+    "fixture_id": "hx_static_20261101_9c2e953b412e",
+    "sensor_mount_id": "operator_reports_firmly_fixed",
+    "cable_relief": null,
+    "environment": null,
+    "trial_position": "A; single 10x10 mm tape; radius approx 40 mm by ruler",
+    "trial_mass_g": null,
+    "trial_radius_mm": 40,
+    "power_setting": "unchanged from previous three no-trial starts; voltage unmeasured"
+  },
+  "setup_verified_by_software": false,
+  "observation": "contemporaneous software observations plus operator declarations; no physical setup verification"
+}

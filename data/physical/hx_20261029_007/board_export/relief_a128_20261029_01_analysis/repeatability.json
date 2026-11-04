@@ -1,0 +1,96 @@
+{
+  "axis": "z",
+  "method": "aa128-to64",
+  "start_turns": [
+    0,
+    128,
+    256,
+    384,
+    512,
+    640,
+    768,
+    896
+  ],
+  "turns_per_window": 128,
+  "amplitudes_g": [
+    0.0001791534423828125,
+    0.0001660919189453125,
+    0.0001564788818359375,
+    0.0001743011474609375,
+    0.0001543426513671875,
+    0.000123260498046875,
+    0.0001507415771484375,
+    0.0001487884521484375
+  ],
+  "mean_peak_mg": 0.1566448211669922,
+  "cv": 0.11120302026059237,
+  "rpm_median": 1718.49061532283,
+  "within_record_repeatability_pass": false,
+  "criteria": {
+    "cv_limit": 0.1,
+    "mean_relative_difference_limit": 0.1,
+    "rpm_relative_difference_limit": 0.01,
+    "note": "Stage engineering screens, not confidence bounds or instrument specifications"
+  },
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "source_capture_directory": "/home/xilinx/validation/relief_a128_20261029_01",
+  "source_sha256": {
+    "samples.csv": "3f9da7c717397be71b4e6542f4609f519a0e07e39dd52969a5347457ba8eb010",
+    "pulses.csv": "2f3bd48efed229e6b82d8190b7ae2884274a6caeffe057a369e6b7a9e7928853",
+    "capture.json": "8fe8fdb5c26099dc6fc694f9876b1101eacc8816621d15738a1bb456d2c74672",
+    "stop_snapshot.json": "cb6aeee7c49650b9eaa2e51652cf21efb167586fba378856aae59c136ac46d6e"
+  },
+  "amplitude_source": "FPGA verified same-input",
+  "hardware_windows_verified": 8,
+  "windows": [
+    {
+      "start_turn": 0,
+      "reference_amplitude_g": 0.00017914763300601395,
+      "start_tick": 56730067,
+      "end_tick": 504258472
+    },
+    {
+      "start_turn": 128,
+      "reference_amplitude_g": 0.00016609399642661396,
+      "start_tick": 504258472,
+      "end_tick": 951499550
+    },
+    {
+      "start_turn": 256,
+      "reference_amplitude_g": 0.0001564853386032748,
+      "start_tick": 951499550,
+      "end_tick": 1398292090
+    },
+    {
+      "start_turn": 384,
+      "reference_amplitude_g": 0.0001743073774986116,
+      "start_tick": 1398292090,
+      "end_tick": 1845573469
+    },
+    {
+      "start_turn": 512,
+      "reference_amplitude_g": 0.000154341544101607,
+      "start_tick": 1845573469,
+      "end_tick": 2292354274
+    },
+    {
+      "start_turn": 640,
+      "reference_amplitude_g": 0.0001232603884887964,
+      "start_tick": 2292354274,
+      "end_tick": 2738911285
+    },
+    {
+      "start_turn": 768,
+      "reference_amplitude_g": 0.00015073905561979221,
+      "start_tick": 2738911285,
+      "end_tick": 3185723028
+    },
+    {
+      "start_turn": 896,
+      "reference_amplitude_g": 0.0001487810181736317,
+      "start_tick": 3185723028,
+      "end_tick": 3632248532
+    }
+  ]
+}

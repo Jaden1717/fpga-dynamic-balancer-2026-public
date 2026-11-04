@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "source_usb_path": "E:\\hx_control_20261101_01\\evidence_control_01.tar.gz",
+  "archive_sha256": "3937e7d84579e44074dd23d18ea9b51e8d51d9c61a275649f8996a7c1a53ca41",
+  "saved_archive": "data\\physical\\HX_20261101_003\\evidence_control_01.tar.gz",
+  "archive_bytes": 12325429,
+  "archive_members": 75,
+  "regular_files": 59,
+  "all_extracted_files_match_archive": true,
+  "deployed_packet_manifest_verified": true,
+  "physical_validation_complete": false
+}

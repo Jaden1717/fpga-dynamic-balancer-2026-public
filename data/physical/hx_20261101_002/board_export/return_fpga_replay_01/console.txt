@@ -1,0 +1,21 @@
+Loading and validating raw capture (one CSV parse)...
+Prepared 1/8 angle windows
+Prepared 2/8 angle windows
+Prepared 3/8 angle windows
+Prepared 4/8 angle windows
+Prepared 5/8 angle windows
+Prepared 6/8 angle windows
+Prepared 7/8 angle windows
+Prepared 8/8 angle windows
+Loading HX11 compute overlay...
+FPGA same-input verification 1/8
+FPGA same-input verification 2/8
+FPGA same-input verification 3/8
+FPGA same-input verification 4/8
+FPGA same-input verification 5/8
+FPGA same-input verification 6/8
+FPGA same-input verification 7/8
+FPGA same-input verification 8/8
+1x Z peak 0.730440 mg; SD 0.029323 mg; CV 4.01%; RPM 1713.99; FPGA verified same-input
+Runtime context: bound observations/declarations
+No automatic recapture; physical correction remains unapproved.

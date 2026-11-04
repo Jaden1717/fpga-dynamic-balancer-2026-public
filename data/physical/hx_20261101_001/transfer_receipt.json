@@ -1,0 +1,19 @@
+{
+  "documentation_date": "2026-11-01",
+  "usb_path": "E:\\hx_deadline_20261031_01\\evidence_reference_01.tar.gz",
+  "usb_label": "MOCLIFFOOD",
+  "operator_sha256": "e78b7b51998a808b2fb490f4aeb1ae94eb6f15550fbf022fa0469f99547af599",
+  "saved_sha256": "e78b7b51998a808b2fb490f4aeb1ae94eb6f15550fbf022fa0469f99547af599",
+  "archive_bytes": 7293597,
+  "archive_members": 38,
+  "regular_files": 28,
+  "all_extracted_bytes_match_archive": true,
+  "packet_manifest_verified": true,
+  "operator_requested_tape_removal": true,
+  "tape_removal_execution_confirmation_pending": false,
+  "physical_validation_complete": false,
+  "tape_was_removed": false,
+  "operator_actual_trial_position": "C",
+  "operator_statement": "3次都未取下胶带，胶带在C位置",
+  "clarification_record": "data/review/hx_fixed_c_reference_20261101/operator_declaration.json"
+}

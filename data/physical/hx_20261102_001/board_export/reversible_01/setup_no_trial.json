@@ -1,0 +1,10 @@
+{
+  "fixture_id": "hx_static_20261101_9c2e953b412e",
+  "sensor_mount_id": "operator_reports_firmly_fixed",
+  "cable_relief": null,
+  "environment": null,
+  "trial_position": "none",
+  "trial_mass_g": 0,
+  "trial_radius_mm": null,
+  "power_setting": "unchanged from previous three no-trial starts; voltage unmeasured"
+}

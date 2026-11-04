@@ -1,0 +1,18 @@
+{
+  "kind": "external-pynq-z2-board-source-v1",
+  "checked_date": "2026-11-02",
+  "vendor": "TUL",
+  "documentation_url": "https://pynq.readthedocs.io/en/v2.7.0/overlay_design_methodology/board_settings.html",
+  "archive_url": "https://dpoauwgwqsy2x.cloudfront.net/Download/pynq-z2.zip",
+  "archive_sha256": "6fba4c40db5a0c480ca96b2f41719f57e83728a54ac9823578ac21667b2e4e7f",
+  "archive_bytes": 165993,
+  "files": {
+    "pynq-z2/A.0/board.xml": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae",
+    "pynq-z2/A.0/part0_pins.xml": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f",
+    "pynq-z2/A.0/preset.xml": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe",
+    "pynq-z2/A.0/pynq_z2.jpg": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+  },
+  "matching_original_files": 4,
+  "redistribution_license": "No explicit license was present in the downloaded archive. Files are obtained directly as a local dependency instead of being redistributed in the current repository tree. Earlier copies and their Git history are outside this public snapshot.",
+  "ps7_config": "build/overlay/ps7_cfg.tcl is generated locally from the pinned preset.xml before building."
+}

@@ -1,0 +1,9 @@
+{
+  "platform": "Windows PC only; no claim of board timing or FPGA speedup",
+  "before_elapsed_seconds": 13.075679399989895,
+  "after_elapsed_seconds": 1.0531825999933062,
+  "before_csv_parse_calls": 17,
+  "after_csv_parse_calls": 1,
+  "same_eight_full_prepared_fingerprints": true,
+  "pc_measured_ratio": 12.415396342545918
+}

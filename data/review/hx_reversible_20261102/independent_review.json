@@ -1,0 +1,174 @@
+{
+  "kind": "reversible-three-state-independent-review-v1",
+  "date": "2026-11-02",
+  "archive_sha256": "cc55310df03e14a00b31a7c50bd87fe8415606b65b3defc535f2343d48d770b6",
+  "raw_files_hash_verified": 12,
+  "stopped_completed_captures_verified": 3,
+  "integer_windows_independently_verified": 24,
+  "records": [
+    {
+      "record": "01_reference_before",
+      "mean_peak_mg": 0.5391677310332305,
+      "window_sd_mg": 0.01601540716235998,
+      "cv": 0.029703942280946527,
+      "rpm_median": 1714.2563270343912,
+      "amplitudes_g": [
+        0.0005419601130230915,
+        0.0005567222646190253,
+        0.0005299823490683745,
+        0.0005245263764803714,
+        0.0005328684313564667,
+        0.0005664843326630272,
+        0.0005194196054508268,
+        0.0005413783756046601
+      ],
+      "boot_id": "9eb9e21d-3d03-4363-8064-9ea5bedf579e",
+      "initialization_id": "bd7f08d3-b2f8-42f7-949f-660214a2ce87",
+      "uptime_before": 786.21,
+      "uptime_after": 843.33,
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      },
+      "dc_g": {
+        "x": 0.006425036710171526,
+        "y": -0.014013974490850152,
+        "z": 1.0148884378820293
+      },
+      "source_sha256": {
+        "samples.csv": "df30232ce44a4d51077fe1d7ab57bd885b34271e15828d1a01acf46a9260cc1b",
+        "pulses.csv": "7cb52efbb8287711ba999661f2d77dde8de836dfa9b4d3fe532a41fe5095b3cf",
+        "capture.json": "b29b1c95bd3408c348c820ee3152c486b882625074d56ff79be16fb05a912bdb",
+        "stop_snapshot.json": "58649bd6ae5f0145788d225c5160e0efaa0467e4b0aa13ae4608cda724acc7fc"
+      },
+      "sample_count": 159101,
+      "pulse_count": 2286
+    },
+    {
+      "record": "02_trial_A_powered_01",
+      "mean_peak_mg": 0.527831029562102,
+      "window_sd_mg": 0.015337544095869463,
+      "cv": 0.02905767800084387,
+      "rpm_median": 1715.8392841976063,
+      "amplitudes_g": [
+        0.0005207669300227352,
+        0.0005280195365442884,
+        0.0005251585377312356,
+        0.0005478911438666438,
+        0.0005350121026398465,
+        0.0005164026382615034,
+        0.0005468954655104681,
+        0.0005025018819200951
+      ],
+      "boot_id": "9eb9e21d-3d03-4363-8064-9ea5bedf579e",
+      "initialization_id": "9684ae7b-9680-4722-b79a-59cdc3049270",
+      "uptime_before": 2034.33,
+      "uptime_after": 2090.53,
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      },
+      "dc_g": {
+        "x": -0.0067882212584774795,
+        "y": -0.005693729184409923,
+        "z": 1.0150084682230056
+      },
+      "source_sha256": {
+        "samples.csv": "38df93514e890a21fa2b37a8f552729a780d2ccf939e2a16411156f97f3756e4",
+        "pulses.csv": "48ab4881670e13592acb821db4803a655be47f2f631e160f28bf80e491cdc2b4",
+        "capture.json": "9ca3eabd49f19913ca909c994c63998fcdd502e27eee252d72d6486b45e40b0d",
+        "stop_snapshot.json": "d2b6bbf6ee310d7f3da82f1b9df15ad785102c9d7fdb3d361d1c44ae0d3440fb"
+      },
+      "sample_count": 159098,
+      "pulse_count": 2288
+    },
+    {
+      "record": "03_reference_after_e0fc472e-4a8c-4d07-9a12-7a0c67764bd2",
+      "mean_peak_mg": 0.7226050127933719,
+      "window_sd_mg": 0.021967356768024117,
+      "cv": 0.03040022748126944,
+      "rpm_median": 1712.4455692040722,
+      "amplitudes_g": [
+        0.0006892174217904904,
+        0.0007490796985969849,
+        0.0007154852074937767,
+        0.0007453061661923485,
+        0.0007002196038393915,
+        0.0007183076046757708,
+        0.000719073339481709,
+        0.0007441510602765039
+      ],
+      "boot_id": "9eb9e21d-3d03-4363-8064-9ea5bedf579e",
+      "initialization_id": "fe64f893-6f81-46d7-a207-24a58f716193",
+      "uptime_before": 2547.38,
+      "uptime_after": 2603.7,
+      "sensor_configuration": {
+        "verified": true,
+        "registers": {
+          "DEVID": 173,
+          "FILTER": 0,
+          "RANGE": 129,
+          "POWER_CTL": 0
+        },
+        "observation": "after original peer configure, before source enable; additional readback, no additional sensor register writes"
+      },
+      "dc_g": {
+        "x": -0.013995893136753467,
+        "y": -0.005168918931526631,
+        "z": 1.0149642770194198
+      },
+      "source_sha256": {
+        "samples.csv": "b6f35872bc745e077a702097dc06f0b20ac90629710289f357aac1c7473a92b1",
+        "pulses.csv": "c8d581b96de32d59e1ee6c07ebf68c08c304e2c68bf9b53debad7ffbbf07d9b7",
+        "capture.json": "575120a5dc062a2be9ac51fdedb8f25a39f9db7ec680aa98a2e5cef9ffa2dda8",
+        "stop_snapshot.json": "00464c37b276929e42419825ef63c2946682af1e715eee89959fbb07fd1d2829"
+      },
+      "sample_count": 159102,
+      "pulse_count": 2283
+    }
+  ],
+  "partial_records_retained": [
+    {
+      "record": "02_trial_A",
+      "capture_status": "PARTIAL",
+      "sample_count": 45529,
+      "pulse_count": 0,
+      "errors": [
+        "capture interrupted by user",
+        "need two optical pulses inside sample time span; static check requires --allow-no-pulses"
+      ]
+    },
+    {
+      "record": "03_reference_after",
+      "capture_status": "PARTIAL",
+      "sample_count": 26468,
+      "pulse_count": 0,
+      "errors": [
+        "capture interrupted by user",
+        "need two optical pulses inside sample time span; static check requires --allow-no-pulses"
+      ]
+    }
+  ],
+  "trial_vs_before_relative": -0.021026298160320922,
+  "after_vs_before_relative": 0.34022303487750016,
+  "reference_difference_mg": 0.1834372817601414,
+  "same_boot_within_this_batch": true,
+  "prior_teammate_three_start_boot_id": "3a308ddf-fd8a-4ae5-b228-18864838da33",
+  "current_boot_differs_from_prior_three_start_batch": true,
+  "new_fpga_executions": 0,
+  "physical_validation_complete": false,
+  "automatic_extra_capture": false,
+  "causal_attribution": "Not established; before/after reference differs; operating interruptions and time/context require consideration. Constant DC shift alone does not explain coherent 1x change."
+}

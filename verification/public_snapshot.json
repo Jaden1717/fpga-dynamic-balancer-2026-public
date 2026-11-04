@@ -1,0 +1,58 @@
+{
+  "kind": "hengxin-public-snapshot-v1",
+  "source_revision": "57ead1bbc5777b2dfb1b264d25ef5fbb520af749",
+  "excluded_count": 542,
+  "redacted_evidence_copies": [
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_0.json",
+      "original_sha256": "fe20fcefb625ae3fae34e279c7292e98cba90691a269645ccf537ddb93d81ddc",
+      "public_sha256": "d2e47b9fd2bcc10962baa261ee1d8ea30935345e147d3870cb9efb4f319dcc0e"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_128.json",
+      "original_sha256": "d2112daedd4e453b8835c2013169e91526751f19d0e68a6c7681bf3c0078b50f",
+      "public_sha256": "5160804cd8e3df276fb45ab9dc45773c6b4d1e45e96a0e9630ee8f94ef7431c4"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_192.json",
+      "original_sha256": "523e905894f2f341da8bd63cf2ab79c23b7711f73fe68bed70ee2a15c82069fe",
+      "public_sha256": "3873897b306cb1f96615bdafdf220934de8671bd40c5ad4cedda7aa9a9683d95"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_256.json",
+      "original_sha256": "f4f3cd0af93000f0233b01ca5232a4da480f8f66b5aadeff7dc043abaf86a777",
+      "public_sha256": "fbac0f0f9562aa4e867aca2817c88401a2075886c1df12059be9d24d444fa952"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_320.json",
+      "original_sha256": "3f6d0e3a95f1c8707c35fe51b591ba9205680972cb04a718f8f354ecf3d459da",
+      "public_sha256": "e0a16b6c125a1c30cbb2a560d8fc64cb1478cd5b401ede3cbe0be08c9187dac6"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_384.json",
+      "original_sha256": "5d57bdeaec09be9a214b95ca5ddd5b373b2909aafe011ae0fbaf1defe997f898",
+      "public_sha256": "9acf0452a1968fc1f8650e75280920deca4b76f39f15f9402724f1e52db66173"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_448.json",
+      "original_sha256": "e67f33f92b4bd35b9eb55a210648843f9247cde44dec83df150fe3de18446469",
+      "public_sha256": "4dcca5cf4886681c8704725a9f2037b73ee375f204ca7878242b07e082fdfda4"
+    },
+    {
+      "path": "data/physical/hx_20261028_003/antialias_20261029/trial_a_20251021_185122_z64_64.json",
+      "original_sha256": "b2d4cca3b6902e50c600cf353b422836fc658781994cb327d86a9485508fd6bb",
+      "public_sha256": "0b0b5a7ec57998b3368545ead26324d745c579b8274db2a8f891641f65e5ad39"
+    },
+    {
+      "path": "data/review/hx_improvement_20261029/relief_capture_context.json",
+      "original_sha256": "c406090fccea00965f4375abe8802cc5dc6bd39408b5b35cc9f3a92199e2b225",
+      "public_sha256": "8ef7bb6bbee11a9a3663004cfd8441cccb4ec7853f65bd334f1c15ccb8932ddf"
+    },
+    {
+      "path": "data/review/hx_measurement_flow_20261031/validation.json",
+      "original_sha256": "e04c9563ff06ae9b2f9402f79105e2782d08f5efdb02d2767c8c0aa3e030156c",
+      "public_sha256": "4ca02ff230e8a998a4ad1920203bdfa4a3bf7984502298624d531f8e122e256c"
+    }
+  ],
+  "historical_overlay_policy": "Keep sealed binary artifacts and vendor board files outside the public tree."
+}

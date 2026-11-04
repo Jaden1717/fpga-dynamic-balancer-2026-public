@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-29",
+  "access": "GitHub connector; read-only searches, trees, source files and licenses",
+  "copied_third_party_code": false,
+  "repositories": [
+    {
+      "repo": "hstarmans/rotorbalancer",
+      "url": "https://github.com/hstarmans/rotorbalancer",
+      "license": "GPL-3.0",
+      "use": "实物测量记录、原始波形/频谱/参考信号并列展示、试重前后数据组织。源码的getdetails也明确留下真实质量/位置关联的局限；不照搬FFT首峰选频、因果带通相移或README精度声称。",
+      "files": [
+        [
+          "README.md",
+          "f348dbb92e7bada90788ad8fae1cf73323afa0fb"
+        ],
+        [
+          "src/rotorbalancer/calc.py",
+          "1a4f1ef0c51ec4b5a34d64872063ec9e7d80c4d8"
+        ]
+      ]
+    },
+    {
+      "repo": "ZhenxianLi/rota-order",
+      "url": "https://github.com/ZhenxianLi/rota-order",
+      "license": "GPL-3.0-or-later (README declaration)",
+      "use": "已知真值的升降速/谐波/抗混叠测试，峰值与RMS语义、来源记录和分辨能力说明。项目自述pre-alpha，不直接引入依赖或复制实现；Vold-Kalman仅保留为变转速多阶次备选。",
+      "files": [
+        [
+          "src/rota_order/angle.py",
+          "3edf6188dbbe3cd07fb698483e64471321f6a707"
+        ],
+        [
+          "tests/test_angle.py",
+          "557f003e4e924397b31e740ec2d0e252049c74f7"
+        ]
+      ]
+    },
+    {
+      "repo": "petrobras/ross",
+      "url": "https://github.com/petrobras/ross",
+      "license": "Apache-2.0",
+      "use": "不平衡响应与频率响应的仿真方法，用于检验转速/结构传递假设。当前缺少支架刚度阻尼参数，不能用模型仿真替代本机标定；当前不安装完整有限元工具。",
+      "files": [
+        [
+          "README.md",
+          "2de7d631f8f7d77fdcfa255cdfe6b957214c7876"
+        ]
+      ]
+    },
+    {
+      "repo": "alexforencich/cocotbext-axi",
+      "url": "https://github.com/alexforencich/cocotbext-axi",
+      "license": "MIT",
+      "use": "AXI各通道独立暂停、响应反压、长度/偏移组合测试。现有RTL定向测试已覆盖AW/W顺序、WSTRB、反压及中止；以后可补随机种子和跨通道组合，不需要为引入框架而改写已通过测试。",
+      "files": [
+        [
+          "tests/axil/test_axil.py",
+          "f556f69094fc47067a57f577a0d5c60d96f0e8cc"
+        ],
+        [
+          "README.md",
+          "8a2598b2ea254acdd8107e5702c67b62103923a5"
+        ]
+      ]
+    },
+    {
+      "repo": "Xilinx/PYNQ",
+      "url": "https://github.com/Xilinx/PYNQ",
+      "license": "BSD-3-Clause",
+      "use": "DMA allocate/transfer/wait与缓存flush/invalidate设计，供未来连续数据路径参考。当前9分钟是整流程时间，未测出MMIO占比，不据此立即换DMA；DMA需要RTL/互连和软件共同修改。",
+      "files": [
+        [
+          "pynq/lib/dma.py",
+          "c388f0c1546f7c7ba416ee7a7139c39e7aed8950"
+        ]
+      ]
+    },
+    {
+      "repo": "raj119373/3TrialMassCalculator",
+      "url": "https://github.com/raj119373/3TrialMassCalculator/blob/main/script.js",
+      "license": "未在已读树中发现LICENSE",
+      "use": "不采用其配重算法：脚本用三轴幅值范数和线性幅值向量，未纳入本项目四次运行平方幅值方程；残余振动图直接取输入/10。可借鉴离线界面形式，不能借鉴其定量结论。",
+      "files": [
+        [
+          "script.js",
+          "ddcb2eeba8b2591d739fb4447f7b84c76402ef8e"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sealed/capture_peer/acq_sync.bit": "e7264c1a448eb27d2043d3686b3f9a8a3322b9e44fa708bff197b1ca2f635dce",
+  "sealed/capture_peer/acq_sync.xsa": "eca1b6e2c84d76b3f1ceabf1e30f4cbe0625e7c9551d2d977f8bfd12633dd08a",
+  "sealed/capture_peer/adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+  "sealed/capture_peer/sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+  "sealed/compute/order1x.bit": "fd905df55e9faa334e11873df1dda7800f338d1b569aaaf676b8e1278910a953",
+  "sealed/compute/order1x.xsa": "980107bfd3775bdf060086d69834d3c7e17c0725f332a069fcccae734463b346",
+  "sealed/stop_evidence/hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+}

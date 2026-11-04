@@ -1,0 +1,16 @@
+# Preserve frozen inputs, sealed drivers and manifests across checkouts.
+* -text
+build/overlay/*.tcl whitespace=cr-at-eol
+build/reports/** linguist-generated=true whitespace=-trailing-space,cr-at-eol
+*.bit binary
+*.xsa binary
+*.png binary
+*.jpg binary
+*.gz binary
+*.zip binary
+*.tar binary
+data/** linguist-generated=true
+verification/** linguist-generated=true
+docs/archive/** linguist-generated=true
+tests/fixtures/rtl_capture/** linguist-generated=true
+build/overlay/board_files/** linguist-vendored=true

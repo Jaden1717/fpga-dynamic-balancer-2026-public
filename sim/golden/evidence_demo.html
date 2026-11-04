@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>衡芯 · 离线测量记录</title>
+<style>
+:root{--paper:#eef3f8;--ink:#14324d;--signal:#1b5baa;--teal:#137b77;--slate:#576c80;--amber:#9d6718;--rule:#d3dfeb;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif}
+button,a{touch-action:manipulation}button{font:inherit;cursor:pointer}a{color:var(--signal);text-underline-offset:4px}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+header{background:var(--ink);color:white;padding:25px max(24px,calc((100vw - 1180px)/2));display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:24px;font-weight:700;letter-spacing:2px}.brand small{font:12px Bahnschrift,Arial;letter-spacing:3px;margin-left:14px;color:#b4ccdf}
+header .mode{font-size:13px;color:#d7e5ef;border-left:2px solid #86adc7;padding-left:16px}
+main{max-width:1180px;margin:35px auto 50px;padding:0 24px}.record-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:26px}
+h1{font-size:26px;line-height:1.3;margin:7px 0 8px;font-weight:650}h2{font-size:18px;margin:0 0 5px}h3{font-size:15px;margin:0 0 10px}.eyebrow{color:var(--slate);font:12px Bahnschrift,Consolas,monospace;letter-spacing:1px}
+.record-id{font:13px Consolas,monospace;overflow-wrap:anywhere;color:var(--slate)}.tag{display:inline-block;padding:5px 11px;border:1px solid #bacddc;border-radius:5px;font-size:12px;white-space:nowrap}
+.sheet{background:var(--white);border:1px solid var(--rule);border-radius:12px;overflow:hidden;box-shadow:0 8px 25px #14324d08}
+.measure-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px}.trace{min-width:0;padding:28px 28px 22px}.trace-title{display:flex;justify-content:space-between;align-items:center;gap:12px}.sub{font-size:12px;color:var(--slate);margin:4px 0 10px}
+.legend{font-size:12px;color:var(--teal);white-space:nowrap}.legend::before{content:"";display:inline-block;width:20px;border-top:2px dashed var(--teal);vertical-align:middle;margin-right:7px}
+#trace{width:100%;display:block;height:auto;margin-top:10px}.keys{display:grid;grid-template-columns:repeat(8,1fr);gap:7px;margin:10px 0 19px}
+.key{background:#f4f8fc;color:var(--slate);border:1px solid var(--rule);border-radius:5px;padding:6px 0;font:13px Bahnschrift,Consolas,monospace}.key[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:white}
+.selection{display:flex;gap:22px;flex-wrap:wrap;background:#f4f8fc;border-left:3px solid var(--signal);padding:12px 15px;border-radius:0 6px 6px 0;font-size:13px}
+.selection strong{font:20px Bahnschrift,Consolas,monospace;color:var(--ink)}.selection span{display:block;font-size:11px;color:var(--slate)}.selection-label{font-weight:650;align-self:center}
+.ledger{border-left:1px solid var(--rule);padding:26px;background:#f7fafc}.metric{padding:16px 0;border-bottom:1px solid var(--rule)}.metric:first-child{padding-top:0}.metric:last-child{border-bottom:0;padding-bottom:0}.metric-label{font-size:12px;color:var(--slate)}
+.value{font:36px/1.3 Bahnschrift,"Microsoft YaHei",sans-serif;letter-spacing:-1px;margin-top:4px}.value .unit{font:13px "Microsoft YaHei",sans-serif;letter-spacing:0;margin-left:6px;color:var(--slate)}.small-value{font:24px Bahnschrift,Consolas,monospace;margin:4px 0}.metric-note{font-size:11px;color:var(--slate);margin-top:3px}
+.capture-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule);background:#fafcfe}.capture-cell{padding:15px 23px;border-right:1px solid var(--rule)}.capture-cell:last-child{border:0}.capture-cell span{font-size:11px;color:var(--slate);display:block}.capture-cell strong{font:20px Bahnschrift,Consolas,monospace}
+.scope{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:24px 0}.scope article{padding:20px 23px;border-top:3px solid var(--teal);background:#e6f1f1;border-radius:0 0 8px 8px;font-size:13px}.scope article.pending{border-top-color:var(--amber);background:#f5efe4}.scope p{margin:4px 0}.scope h3{margin-bottom:7px}
+details{background:white;border:1px solid var(--rule);border-radius:8px;margin:14px 0}summary{cursor:pointer;padding:15px 19px;font-weight:650;font-size:14px}.details-content{padding:0 20px 20px;font-size:13px}.overflow{overflow:auto}table{border-collapse:collapse;width:100%;min-width:510px;font-size:13px}th,td{text-align:right;padding:10px 12px;border-bottom:1px solid var(--rule);font-variant-numeric:tabular-nums}th:first-child,td:first-child{text-align:left}th{color:var(--slate);font-weight:500;background:#f6f9fc}
+.sources{display:grid;grid-template-columns:1fr 1fr;gap:14px}.source-box{background:#f4f8fc;padding:13px 15px;border-radius:6px}.source-box small{display:block;color:var(--slate);margin-top:4px}.hashes{font:11px/1.8 Consolas,monospace;overflow-wrap:anywhere;color:var(--slate);margin-top:16px}.hashes div{margin:7px 0}.notes{color:var(--slate);font-size:12px}
+.actions{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:23px}.toggle{border:1px solid #b8cbdc;border-radius:5px;padding:7px 12px;background:white;color:var(--signal);font-size:12px}
+footer{margin-top:25px;padding-top:17px;border-top:1px solid var(--rule);color:var(--slate);font-size:11px;display:flex;justify-content:space-between;gap:16px}.mono{font-family:Bahnschrift,Consolas,monospace}
+@media(max-width:780px){header{padding:18px 20px}.brand{font-size:22px}.brand small{display:none}main{padding:0 15px;margin-top:24px}.record-top{display:block}.tag{margin-top:12px}.measure-layout{grid-template-columns:1fr}.trace{padding:21px 17px}.ledger{border-left:0;border-top:1px solid var(--rule);display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:21px}.metric{padding:0;border:0}.value{font-size:32px}.small-value{font-size:23px}.capture-strip{grid-template-columns:1fr 1fr}.capture-cell:nth-child(2){border:0}.capture-cell{padding:12px 18px}.scope{grid-template-columns:1fr;gap:13px}.sources{grid-template-columns:1fr}.selection{gap:13px}.selection strong{font-size:18px}footer{display:block}footer span{display:block}footer span+span{margin-top:6px}.keys{gap:5px}h1{font-size:24px}.trace-title{align-items:flex-start}.legend{font-size:10px}}
+@media print{body{background:white}header{background:white;color:var(--ink);padding:10px 0;border-bottom:2px solid var(--ink)}header .mode{color:var(--slate)}main{margin:20px auto;padding:0}.sheet{box-shadow:none}.keys,.actions{display:none}.scope{break-inside:avoid}details{break-inside:avoid}footer{margin-top:15px}}
+</style>
+</head>
+<body>
+<header><div class="brand">衡芯<small>HENGXIN · VIBRATION</small></div><div class="mode">冻结记录 / 离线复演<br><span id="source-type">读取记录来源</span></div></header>
+<main>
+<div class="record-top"><div><div class="eyebrow">PYNQ-Z2 / SINGLE-PLANE MEASUREMENT</div><h1>振动测量记录</h1><div id="record-id" class="record-id"></div></div><div class="tag" id="validation-tag">证据核对</div></div>
+<section class="sheet" aria-label="测量结果">
+<div class="measure-layout">
+<div class="trace">
+<div class="trace-title"><div><h2>八个固定窗口</h2><p class="sub" id="protocol"></p></div><span class="legend">窗口均值</span></div>
+<svg id="trace" viewBox="0 0 760 330" role="img" aria-label="8个固定窗口的1倍转频峰值幅度"></svg>
+<div class="keys" id="window-keys" aria-label="选择查看窗口"></div>
+<div class="selection" aria-live="polite"><div class="selection-label" id="selected-label">窗口 1</div><div><strong id="selected-peak">—</strong><span>峰值 / mg</span></div><div><strong id="selected-phase">—</strong><span>TACH 相对相位 / °</span></div><div><strong id="selected-start">—</strong><span>起始圈</span></div></div>
+</div>
+<aside class="ledger" aria-label="整份记录摘要">
+<div class="metric"><div class="metric-label">Z 轴 1× 峰值均值</div><div class="value"><span id="mean">—</span><span class="unit">mg</span></div><div class="metric-note">加速度峰值，非 RMS</div></div>
+<div class="metric"><div class="metric-label">转速中位数</div><div class="small-value"><span id="rpm">—</span> <span class="unit">RPM</span></div></div>
+<div class="metric"><div class="metric-label">记录内窗口标准差</div><div class="small-value"><span id="sd">—</span> <span class="unit">mg</span></div><div class="metric-note">描述 8 个窗口波动，不代表仪器精度</div></div>
+<div class="metric"><div class="metric-label">记录内 CV</div><div class="small-value" id="cv">—</div><div class="metric-note">10% 为暂定参考，不单独触发重采</div></div>
+</aside>
+</div>
+<div class="capture-strip"><div class="capture-cell"><span>原始样本</span><strong id="samples">—</strong></div><div class="capture-cell"><span>TACH 脉冲</span><strong id="pulses">—</strong></div><div class="capture-cell"><span>采集请求时长</span><strong id="duration">—</strong></div><div class="capture-cell"><span>丢样 / 丢脉冲 / 漏源</span><strong id="losses">—</strong></div></div>
+</section>
+<div class="scope"><article><h3>当前能说明什么</h3><p id="scope-verified"></p><p>保留全部 8 个窗口，展示幅值及记录内波动。</p></article><article class="pending"><h3>仍待验证</h3><p>可信的修正质量、放置角度，以及修正后的独立减振效果。</p><p>当前页面不提供配重指令。</p></article></div>
+<details id="table-details"><summary>查看全部窗口数值</summary><div class="details-content overflow"><table><thead><tr><th>窗口</th><th>起始圈</th><th>峰值 / mg</th><th>TACH 相对相位 / °</th></tr></thead><tbody>__TABLE_ROWS__</tbody></table><p class="notes">相对相位没有经过物理绝对标定，不能直接作为配重角度。</p></div></details>
+<details id="evidence-details"><summary>查看来源、旁证与复核范围</summary><div class="details-content">
+<div class="sources"><div class="source-box"><strong id="evidence-source"></strong><small>本次仅在电脑上复核，未下载 overlay 或执行 FPGA。</small></div><div class="source-box"><strong id="configuration"></strong><small id="driver-evidence"></small></div></div>
+<p class="notes" id="context-note"></p><div id="operator-notes" class="notes"></div>
+<p class="notes">风扇 TACH 按 2 脉冲/圈显式解释；原始封存元数据中的 1 PPR 注记保留，未改写。采集与计算使用两个 overlay，目前为分阶段处理。</p>
+<p class="notes">演示包含窗口输入、可选历史结果及本次核对文件；原始 CSV 留在原档案，以 SHA256 绑定。单条记录不证明跨启动重复性或最终平衡完成。</p>
+<div class="hashes" id="source-hashes"></div>
+</div></details>
+<div class="actions"><a href="report.json" download>保存结果摘要 JSON</a><a href="sha256sums.txt" download>保存演示文件校验清单</a><button class="toggle" id="show-evidence" type="button">展开来源与旁证</button></div>
+<footer><span>衡芯 · FPGA 振动测量原型</span><span>已有数据复演 · 不代表新的板端执行</span></footer>
+</main>
+<script type="application/json" id="demo-data">__REPORT_JSON__</script>
+<script>
+(function(){
+'use strict';
+const report=JSON.parse(document.getElementById('demo-data').textContent);
+const $=function(id){return document.getElementById(id);};
+const set=function(id,value){$(id).textContent=value;};
+const data=report.windows, m=report.measurement, hw=report.evidence_kind==='archived_fpga';
+set('source-type',hw?'已归档 FPGA 结果':'CPU 参考结果');
+set('record-id',report.record_id);
+set('validation-tag',hw?'8 / 8 同输入算术核对':'8 份 CPU 参考 · 非新硬件证据');
+set('protocol','每窗 '+report.protocol.turns_per_window+' 圈 · Z 轴 · 1× 加速度峰值');
+set('mean',m.mean_peak_mg.toFixed(6));set('rpm',m.rpm_median.toFixed(2));
+set('sd',m.sample_sd_peak_mg.toFixed(6));set('cv',(m.cv*100).toFixed(2)+'%');
+set('samples',report.capture.sample_count.toLocaleString('en-US'));
+set('pulses',report.capture.pulse_count.toLocaleString('en-US'));
+set('duration',report.capture.requested_seconds+' s');
+set('losses',report.capture.sample_drops+' / '+report.capture.pulse_drops+' / '+report.capture.source_missed);
+set('scope-verified',hw?'这份冻结采集的输入已重建，8 个已归档 FPGA 结果通过同输入核对。':'这份冻结采集已生成 CPU 参考，当前演示没有加入 FPGA 结果。');
+set('evidence-source',hw?'已归档 FPGA：8 个窗口已复核':'来源：CPU 定点参考');
+set('configuration',report.configuration_recorded?'原采集已保存配置回读':'原采集未保存配置回读');
+set('driver-evidence',report.driver_identity_recorded?'原采集已保存驱动身份':'原采集未保存驱动身份；不由当前源码推定。');
+if(report.context){
+set('context-note',report.context.observation_timing==='retrospective'?'旁证为回顾性登记，未补写原始配置或重新确认当前现场。':'旁证时间性质由记录者声明，软件未验证现场事实。');
+report.context.notes.forEach(function(note){const p=document.createElement('p');p.textContent=note;$('operator-notes').appendChild(p);});
+}else{set('context-note','未附加现场旁证。未知条件保持未知。');}
+Object.keys(report.source_sha256).sort().forEach(function(name){const div=document.createElement('div');div.textContent=name+'  '+report.source_sha256[name];$('source-hashes').appendChild(div);});
+let active=0;
+const ns='http://www.w3.org/2000/svg';
+function element(tag,attrs,text){
+const node=document.createElementNS(ns,tag);
+Object.keys(attrs).forEach(function(k){node.setAttribute(k,String(attrs[k]));});
+if(text!==undefined){node.textContent=text;}
+$('trace').appendChild(node);return node;
+}
+function draw(){
+$('trace').replaceChildren();
+const viewWidth=Math.max(320,$('trace').clientWidth),viewHeight=viewWidth<500?270:330;
+$('trace').setAttribute('viewBox','0 0 '+viewWidth+' '+viewHeight);
+const left=44,top=22,bottom=viewHeight-50,width=viewWidth-left-12,height=bottom-top;
+const max=Math.max.apply(null,data.map(function(w){return w.amplitude_peak_mg;}));
+const upper=Math.max(.000001,Math.ceil(max*1.15/.05)*.05);
+for(let j=0;j<=4;j++){
+const value=upper*j/4,y=bottom-height*j/4;
+element('line',{x1:left,y1:y,x2:left+width,y2:y,stroke:'#e1e9f0','stroke-width':1});
+element('text',{x:left-11,y:y+4,'text-anchor':'end',fill:'#576c80','font-size':12,'font-family':'Bahnschrift,Arial'},value.toFixed(2));
+}
+element('text',{x:left,y:12,fill:'#576c80','font-size':11},'mg peak');
+const step=width/8,barMargin=Math.min(18,step*.2);
+data.forEach(function(w,i){
+const h=height*w.amplitude_peak_mg/upper;
+element('rect',{x:left+step*i+barMargin,y:bottom-h,width:step-2*barMargin,height:h,rx:3,fill:i===active?'#14324d':'#8bb1d9'});
+element('text',{x:left+step*(i+.5),y:bottom+23,'text-anchor':'middle',fill:'#576c80','font-size':12,'font-family':'Bahnschrift,Arial'},String(w.index));
+});
+const y=bottom-height*m.mean_peak_mg/upper;
+element('line',{x1:left,y1:y,x2:left+width,y2:y,stroke:'#137b77','stroke-width':2,'stroke-dasharray':'6 5'});
+element('text',{x:left+width/2,y:viewHeight-4,'text-anchor':'middle',fill:'#576c80','font-size':11},'固定窗口序号');
+}
+function select(index){
+active=index;const w=data[index];
+set('selected-label','窗口 '+w.index);set('selected-peak',w.amplitude_peak_mg.toFixed(6));
+set('selected-phase',w.phase_deg===null?'未定义':w.phase_deg.toFixed(3));set('selected-start',w.start_turn);
+Array.from($('window-keys').children).forEach(function(button,i){button.setAttribute('aria-pressed',String(i===index));});
+draw();
+}
+data.forEach(function(w,i){const b=document.createElement('button');b.type='button';b.className='key';b.textContent=String(w.index);b.setAttribute('aria-label','查看窗口 '+w.index);b.addEventListener('click',function(){select(i);});$('window-keys').appendChild(b);});
+$('show-evidence').addEventListener('click',function(){$('evidence-details').open=true;$('evidence-details').scrollIntoView({behavior:'auto',block:'start'});});
+window.addEventListener('resize',draw);
+select(0);
+})();
+</script>
+</body>
+</html>

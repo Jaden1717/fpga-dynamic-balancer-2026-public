@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "automatic_recapture": false,
+  "timings": {
+    "total_wall_seconds": 50.78267351900013,
+    "stages": {
+      "preparation": {
+        "calls": 1,
+        "wall_seconds": 39.98661586699973
+      },
+      "raw_statistics": {
+        "calls": 1,
+        "wall_seconds": 10.591005351000149
+      }
+    },
+    "fpga_windows": [],
+    "semantics": "Wall times include Python/MMIO overhead. Nested stages overlap; do not sum them. Result wait is not pure PL latency. Instrumentation overhead is included."
+  }
+}

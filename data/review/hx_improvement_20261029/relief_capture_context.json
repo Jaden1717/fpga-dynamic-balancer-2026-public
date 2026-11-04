@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "hengxin-capture-context-v1",
+  "capture_directory": "[local desktop path omitted from public copy]",
+  "source_sha256": {
+    "samples.csv": "3f9da7c717397be71b4e6542f4609f519a0e07e39dd52969a5347457ba8eb010",
+    "pulses.csv": "2f3bd48efed229e6b82d8190b7ae2884274a6caeffe057a369e6b7a9e7928853",
+    "capture.json": "8fe8fdb5c26099dc6fc694f9876b1101eacc8816621d15738a1bb456d2c74672",
+    "stop_snapshot.json": "cb6aeee7c49650b9eaa2e51652cf21efb167586fba378856aae59c136ac46d6e"
+  },
+  "source_declaration": "fan-tach-2ppr",
+  "source_declaration_verified_by_software": false,
+  "observation_timing": "retrospective",
+  "notes": [
+    "User previously reported slight lift when supporting the cable, then reported it fixed before this recorded capture.",
+    "Retrospective documentation only; missing sensor register/driver evidence has not been reconstructed or inferred."
+  ],
+  "documentation_date": "2026-10-30",
+  "observed_at": null,
+  "configuration_evidence": {
+    "recorded": false,
+    "value": null
+  },
+  "driver_identity_evidence": {
+    "recorded": false,
+    "value": null
+  },
+  "declared_setup": {
+    "fixture_id": null,
+    "sensor_mount_id": null,
+    "sensor_axis": null,
+    "cable_relief": null,
+    "environment": null,
+    "trial_position": null,
+    "trial_mass_g": null,
+    "trial_radius_mm": null,
+    "fan_power_state": null
+  },
+  "integrity_scope": "strict CSV/metadata loading and stopped-file binding only; no physical source, setup or missing configuration inferred",
+  "physical_validation_complete": false,
+  "correction_allowed": false
+}

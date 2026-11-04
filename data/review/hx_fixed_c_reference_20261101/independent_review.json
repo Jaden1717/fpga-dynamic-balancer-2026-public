@@ -1,0 +1,390 @@
+{
+  "kind": "hengxin-fixed-c-reference-independent-review-v1",
+  "documentation_date": "2026-11-01",
+  "archive_sha256": "e78b7b51998a808b2fb490f4aeb1ae94eb6f15550fbf022fa0469f99547af599",
+  "raw_file_hashes_verified": 12,
+  "strict_stopped_captures_verified": 3,
+  "cpu_fixed_windows_independently_verified": 24,
+  "new_fpga_executions": 0,
+  "run_count": 3,
+  "actual_trial_position": "C",
+  "operator_declaration_file": "data\\review\\hx_fixed_c_reference_20261101\\operator_declaration.json",
+  "runs": [
+    {
+      "run": 1,
+      "source_sha256": {
+        "samples.csv": "a00a246965c873a8eed5474cf057cf78a8f44221660ebb5e7232e882be415623",
+        "pulses.csv": "00fe79f34a9114b096f7b4abbf22eb2f9f96fb5fd6799a0b635678dfafe95f99",
+        "capture.json": "e6832e67736e2d2c5f6ea63939b86aff0579c3fd4aec5bf3d4ea46d1aa6952fc",
+        "stop_snapshot.json": "0c21b9b7ebb87d262ed17e29ea47de53910b65e23bcf56a8d998d3e22e38fcbe"
+      },
+      "mean_peak_mg": 0.7304422256132868,
+      "within_record_cv": 0.04014450609570114,
+      "within_record_sd_mg": 0.029323242378690096,
+      "rpm_median": 1713.9852771521823,
+      "sample_count": 159103,
+      "pulse_count": 2284,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "source_missed": 0,
+      "dc_g": {
+        "x": 0.009186218572834894,
+        "y": 0.0051299885137300995,
+        "z": 1.0148774629779922
+      },
+      "boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "uptime_before": 129.59,
+      "uptime_after": 185.96,
+      "initialization_id": "447f1ac8-af5c-4737-924a-28a02607b180",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "driver_sha256": {
+        "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+        "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+        "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+      },
+      "analysis_identity": {
+        "angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+        "order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+        "prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+        "phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670"
+      },
+      "full_pipeline_wall_seconds": 108.207027802,
+      "stages": {
+        "capture_overlay_load": {
+          "calls": 1,
+          "wall_seconds": 9.593706502999993
+        },
+        "sensor_initialization_and_readback": {
+          "calls": 1,
+          "wall_seconds": 0.01235900900002207
+        },
+        "capture_initialize_acquire_drain_save": {
+          "calls": 1,
+          "wall_seconds": 44.99235338
+        },
+        "stop_snapshot": {
+          "calls": 1,
+          "wall_seconds": 1.5929587240000274
+        },
+        "analysis_total": {
+          "calls": 1,
+          "wall_seconds": 51.82011164000002
+        }
+      },
+      "analysis_stages": {
+        "preparation": {
+          "calls": 1,
+          "wall_seconds": 40.402825879000005
+        },
+        "raw_statistics": {
+          "calls": 1,
+          "wall_seconds": 11.203043054000005
+        }
+      },
+      "verified_windows": 8,
+      "amplitudes_g": [
+        0.0007258814023050795,
+        0.0006921589856808238,
+        0.0007618953978370202,
+        0.0007211033427387209,
+        0.0006914782628041488,
+        0.0007279815968072096,
+        0.0007611909329067843,
+        0.0007618478838265063
+      ]
+    },
+    {
+      "run": 2,
+      "source_sha256": {
+        "samples.csv": "0634a52b85065476591c132d2656a5a117643d8043a7a2e6fa9ebf0382e52074",
+        "pulses.csv": "5a23acbb876b738db12db196b902faed025b77813feff09c57fe1fe7905f311d",
+        "capture.json": "6bf69e3a393c871320af99e5a0d93f6c87cd42b32bc8574664944efd3075600e",
+        "stop_snapshot.json": "9ca0758c04f5b40191abc1328b58ac3269b85c66ff29b1899838afe8002821a1"
+      },
+      "mean_peak_mg": 0.7479127157263834,
+      "within_record_cv": 0.03599248692181792,
+      "within_record_sd_mg": 0.026919238639443177,
+      "rpm_median": 1720.065379685144,
+      "sample_count": 159107,
+      "pulse_count": 2293,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "source_missed": 0,
+      "dc_g": {
+        "x": 0.00652669292520128,
+        "y": -0.003969977628066333,
+        "z": 1.0149029683296853
+      },
+      "boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "uptime_before": 303.71,
+      "uptime_after": 359.84,
+      "initialization_id": "0c656f7e-9cfa-4c5c-a24b-a4be521eca9a",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "driver_sha256": {
+        "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+        "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+        "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+      },
+      "analysis_identity": {
+        "angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+        "order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+        "prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+        "phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670"
+      },
+      "full_pipeline_wall_seconds": 106.89360862199999,
+      "stages": {
+        "capture_overlay_load": {
+          "calls": 1,
+          "wall_seconds": 9.355150503000004
+        },
+        "sensor_initialization_and_readback": {
+          "calls": 1,
+          "wall_seconds": 0.014958061000015732
+        },
+        "capture_initialize_acquire_drain_save": {
+          "calls": 1,
+          "wall_seconds": 45.01033216000002
+        },
+        "stop_snapshot": {
+          "calls": 1,
+          "wall_seconds": 1.580239067999969
+        },
+        "analysis_total": {
+          "calls": 1,
+          "wall_seconds": 50.74635316199999
+        }
+      },
+      "analysis_stages": {
+        "preparation": {
+          "calls": 1,
+          "wall_seconds": 39.875260809
+        },
+        "raw_statistics": {
+          "calls": 1,
+          "wall_seconds": 10.661585590000016
+        }
+      },
+      "verified_windows": 8,
+      "amplitudes_g": [
+        0.0007540342904413894,
+        0.0007185535254693285,
+        0.0007250384682282497,
+        0.0007567248493621637,
+        0.0007889277632621864,
+        0.0007431262761107879,
+        0.0007789972490858545,
+        0.0007178993038511074
+      ]
+    },
+    {
+      "run": 3,
+      "source_sha256": {
+        "samples.csv": "3dabc3f1187852f225234ee72e73568ccf5a46097987b1bdbb17dd147fbcdad1",
+        "pulses.csv": "bad574130f8466829d157a6b3a613e4545b50f8338e2c18d9e66553b7c5530b0",
+        "capture.json": "ac7a1a9e29b66429e86e85b0b8c53f5b8128a1070cc9bcac3c399c2aec9e3cf6",
+        "stop_snapshot.json": "45919204b31571d738e572f1b85461e44fe0232cf74484e709d881fe8a5417bc"
+      },
+      "mean_peak_mg": 0.7444032825955718,
+      "within_record_cv": 0.048095573554789085,
+      "within_record_sd_mg": 0.03580250283250176,
+      "rpm_median": 1721.5536218046414,
+      "sample_count": 159097,
+      "pulse_count": 2294,
+      "sample_drops": 0,
+      "pulse_drops": 0,
+      "source_missed": 0,
+      "dc_g": {
+        "x": 0.006136740773710378,
+        "y": -0.001935885689037191,
+        "z": 1.014887826049124
+      },
+      "boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+      "uptime_before": 455.41,
+      "uptime_after": 511.47,
+      "initialization_id": "b0117c21-a9a1-447a-a87d-a5e6ba131127",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "driver_sha256": {
+        "sync_capture.py": "5104db8f339c33e155a0c7ac32227ae14b7933496623248200345a189cb39cb3",
+        "adxl355_pl_acq.py": "5986205223a3f0de8af1f09c94bac945045738ffbbbb077013a38b82a63e66de",
+        "hxs1_stop_snapshot.py": "0ae5c92bb9c618cfaa5329dbe7bd70ce09c36ccbb434c7b086091be9c10207cb"
+      },
+      "analysis_identity": {
+        "angle_antialias.py": "47de99e20506e00bad356695a306289c3c540f345538a4dd064ee097cb898f51",
+        "order1x_fixed.py": "785056fd67cdc4b7e3dd1167bd6280b2205c559681d1f07bb924e9ad428f474f",
+        "prepare_tach_order1x.py": "b13189dcd4ab0e2d0a6fc73a1f402fa63775018b860036178b511f6f87acee9e",
+        "phase_free_balance.py": "c19ff5fed94f2ad3a9a444a9a6b67e522b24795caee11a63835f73df7ab5a670"
+      },
+      "full_pipeline_wall_seconds": 107.381778898,
+      "stages": {
+        "capture_overlay_load": {
+          "calls": 1,
+          "wall_seconds": 9.250144528000021
+        },
+        "sensor_initialization_and_readback": {
+          "calls": 1,
+          "wall_seconds": 0.013626738000027672
+        },
+        "capture_initialize_acquire_drain_save": {
+          "calls": 1,
+          "wall_seconds": 45.03650097299999
+        },
+        "stop_snapshot": {
+          "calls": 1,
+          "wall_seconds": 1.5803702380000004
+        },
+        "analysis_total": {
+          "calls": 1,
+          "wall_seconds": 51.306765842999994
+        }
+      },
+      "analysis_stages": {
+        "preparation": {
+          "calls": 1,
+          "wall_seconds": 40.196288881999976
+        },
+        "raw_statistics": {
+          "calls": 1,
+          "wall_seconds": 10.894344297999965
+        }
+      },
+      "verified_windows": 8,
+      "amplitudes_g": [
+        0.0007120901906711492,
+        0.000816003166769467,
+        0.0007030722243980206,
+        0.0007703531863134201,
+        0.0007261151911174824,
+        0.0007447983048786207,
+        0.0007472157371073256,
+        0.0007355782595090882
+      ]
+    }
+  ],
+  "mean_of_run_means_mg": 0.7409194079784139,
+  "observed_range_mg": 0.01747049011309665,
+  "observed_range_relative_to_mean": 0.023579474265311238,
+  "sample_sd_of_three_run_means_mg": 0.009241620147950746,
+  "sample_cv_of_three_run_means": 0.012473178659425795,
+  "rpm_range": 7.568344652459018,
+  "rpm_range_relative_to_mean": 0.004403952035542526,
+  "all_observed_boot_ids_match": true,
+  "distinct_observed_initializations": 3,
+  "identical_sensor_readback": true,
+  "all_source_drivers_match": true,
+  "condition_pairs": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "classification": "UNKNOWN",
+      "details": {
+        "kind": "hengxin-measurement-comparison-v1",
+        "purpose": "same-state, same-boot comparison of recorded conditions and operator declarations",
+        "comparability": "UNKNOWN",
+        "reasons": [
+          "rpm_tolerance_missing",
+          "setup_cable_relief_missing",
+          "setup_environment_missing",
+          "setup_trial_mass_g_missing",
+          "setup_trial_radius_mm_missing",
+          "setup_power_setting_missing"
+        ],
+        "mean_difference_mg": 0.01747049011309665,
+        "first_mean_mg": 0.7304422256132868,
+        "second_mean_mg": 0.7479127157263834,
+        "first_cv": 0.04014450609570114,
+        "second_cv": 0.03599248692181792,
+        "rpm_relative_difference": 0.0035410674684463544,
+        "rpm_relative_tolerance": null,
+        "automatic_recapture": false,
+        "correction_allowed": false,
+        "physical_validation_complete": false,
+        "scope": "No causal attribution, accuracy certification or balancing approval. CV is descriptive only; different initialization IDs are recorded and do not alone reject equal effective configuration."
+      }
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "classification": "UNKNOWN",
+      "details": {
+        "kind": "hengxin-measurement-comparison-v1",
+        "purpose": "same-state, same-boot comparison of recorded conditions and operator declarations",
+        "comparability": "UNKNOWN",
+        "reasons": [
+          "rpm_tolerance_missing",
+          "setup_cable_relief_missing",
+          "setup_environment_missing",
+          "setup_trial_mass_g_missing",
+          "setup_trial_radius_mm_missing",
+          "setup_power_setting_missing"
+        ],
+        "mean_difference_mg": 0.013961056982285003,
+        "first_mean_mg": 0.7304422256132868,
+        "second_mean_mg": 0.7444032825955718,
+        "first_cv": 0.04014450609570114,
+        "second_cv": 0.048095573554789085,
+        "rpm_relative_difference": 0.004405914108413729,
+        "rpm_relative_tolerance": null,
+        "automatic_recapture": false,
+        "correction_allowed": false,
+        "physical_validation_complete": false,
+        "scope": "No causal attribution, accuracy certification or balancing approval. CV is descriptive only; different initialization IDs are recorded and do not alone reject equal effective configuration."
+      }
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "classification": "UNKNOWN",
+      "details": {
+        "kind": "hengxin-measurement-comparison-v1",
+        "purpose": "same-state, same-boot comparison of recorded conditions and operator declarations",
+        "comparability": "UNKNOWN",
+        "reasons": [
+          "rpm_tolerance_missing",
+          "setup_cable_relief_missing",
+          "setup_environment_missing",
+          "setup_trial_mass_g_missing",
+          "setup_trial_radius_mm_missing",
+          "setup_power_setting_missing"
+        ],
+        "mean_difference_mg": -0.0035094331308116455,
+        "first_mean_mg": 0.7479127157263834,
+        "second_mean_mg": 0.7444032825955718,
+        "first_cv": 0.03599248692181792,
+        "second_cv": 0.048095573554789085,
+        "rpm_relative_difference": 0.0008648500132368234,
+        "rpm_relative_tolerance": null,
+        "automatic_recapture": false,
+        "correction_allowed": false,
+        "physical_validation_complete": false,
+        "scope": "No causal attribution, accuracy certification or balancing approval. CV is descriptive only; different initialization IDs are recorded and do not alone reject equal effective configuration."
+      }
+    }
+  ],
+  "interpretation": "Descriptive short-term same-boot fixed-C independent fan-start pilot. Three operator-executed starts, not 24 independent trials. No calibrated accuracy or across-boot/environment reproducibility claim.",
+  "additional_capture_scheduled": false,
+  "automatic_recapture": false,
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "main_algorithm_replaced": false
+}

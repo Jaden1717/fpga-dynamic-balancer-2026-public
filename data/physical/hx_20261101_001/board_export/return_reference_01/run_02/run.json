@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "timings": {
+    "total_wall_seconds": 106.89360862199999,
+    "stages": {
+      "capture_overlay_load": {
+        "calls": 1,
+        "wall_seconds": 9.355150503000004
+      },
+      "sensor_initialization_and_readback": {
+        "calls": 1,
+        "wall_seconds": 0.014958061000015732
+      },
+      "capture_initialize_acquire_drain_save": {
+        "calls": 1,
+        "wall_seconds": 45.01033216000002
+      },
+      "stop_snapshot": {
+        "calls": 1,
+        "wall_seconds": 1.580239067999969
+      },
+      "analysis_total": {
+        "calls": 1,
+        "wall_seconds": 50.74635316199999
+      }
+    },
+    "fpga_windows": [],
+    "semantics": "Wall times include Python/MMIO overhead. Nested stages overlap; do not sum them. Result wait is not pure PL latency. Instrumentation overhead is included."
+  },
+  "automatic_recapture": false
+}

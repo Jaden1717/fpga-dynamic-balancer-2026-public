@@ -1,0 +1,1165 @@
+{
+  "schema_version": 1,
+  "point": {
+    "amplitudes_g": [
+      0.0004068953781045108,
+      0.0011890255787488338,
+      0.00020020172864438905,
+      0.0013107276128312704
+    ],
+    "angles_deg": [
+      0.0,
+      120.0,
+      240.0
+    ],
+    "geometry_condition_number": 1.414213562373095,
+    "normalized_algebra_vector": {
+      "real": -0.19988877215760192,
+      "imag": 0.5431887995051464,
+      "magnitude": 0.578800132293105
+    },
+    "closure_relative_error": 0.4457868084623566,
+    "baseline_only_closure_roots_g": [
+      0.0006436635717246024,
+      0.0008018647129064737
+    ],
+    "correction_allowed": false,
+    "physical_validation_complete": false,
+    "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+    "q_g2": 8.917259626470412e-07,
+    "algebra_status": "finite_positive_q",
+    "unconstrained_implied_baseline_g": 0.0005465681585502429,
+    "implied_minus_measured_baseline_g": 0.0001396727804457321,
+    "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+  },
+  "records": [
+    {
+      "window_count": 8,
+      "mean_g": 0.0004068953781045108,
+      "sample_sd_g": 2.9361445752497737e-05,
+      "cv": 0.07215969345554048,
+      "min_g": 0.00033857458031808077,
+      "max_g": 0.0004313611991411048
+    },
+    {
+      "window_count": 8,
+      "mean_g": 0.0011890255787488338,
+      "sample_sd_g": 1.2293897044856372e-05,
+      "cv": 0.010339472307898346,
+      "min_g": 0.0011740004808465762,
+      "max_g": 0.0012143930507783531
+    },
+    {
+      "window_count": 8,
+      "mean_g": 0.00020020172864438905,
+      "sample_sd_g": 1.3033819233070774e-05,
+      "cv": 0.06510343003192678,
+      "min_g": 0.00017824022389403965,
+      "max_g": 0.00021335132211079856
+    },
+    {
+      "window_count": 8,
+      "mean_g": 0.0013107276128312704,
+      "sample_sd_g": 2.3295541879778756e-05,
+      "cv": 0.017772984754214974,
+      "min_g": 0.0012673585626992606,
+      "max_g": 0.0013453335238027121
+    }
+  ],
+  "amplitude_scenarios": [
+    {
+      "label": "record0_-1_window_sd",
+      "amplitudes_g": [
+        0.0003775339323520131,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19485592824992193,
+        "imag": 0.5295122712499524,
+        "magnitude": 0.5642269739904516
+      },
+      "closure_relative_error": 0.5105615259355775,
+      "baseline_only_closure_roots_g": [
+        0.0006436635717246024,
+        0.0008018647129064737
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.147579412926794e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.000539643485683594,
+      "implied_minus_measured_baseline_g": 0.00016210955333158087,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record0_+1_window_sd",
+      "amplitudes_g": [
+        0.00043625682385700854,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20559656034258705,
+        "imag": 0.5586994586510599,
+        "magnitude": 0.5953276666859104
+      },
+      "closure_relative_error": 0.3806040414751611,
+      "baseline_only_closure_roots_g": [
+        0.0006436635717246024,
+        0.0008018647129064737
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.66969795008049e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005543168106169569,
+      "implied_minus_measured_baseline_g": 0.00011805998675994839,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record1_-1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011767316817039774,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19109439817059132,
+        "imag": 0.5491592262185488,
+        "magnitude": 0.5814575863750818
+      },
+      "closure_relative_error": 0.44480506179371493,
+      "baseline_only_closure_roots_g": [
+        0.0006460133447030923,
+        0.0007938902806880819
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.820311705826651e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005460846987288009,
+      "implied_minus_measured_baseline_g": 0.0001391893206242901,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record1_+1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0012013194757936902,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20858244281477994,
+        "imag": 0.5372867394374481,
+        "magnitude": 0.576353776621534
+      },
+      "closure_relative_error": 0.4471451403391938,
+      "baseline_only_closure_roots_g": [
+        0.00064214220782755,
+        0.0008091592848734765
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.015215146477837e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005472391895431452,
+      "implied_minus_measured_baseline_g": 0.0001403438114386344,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record2_-1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00018716790941131827,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20121218107602556,
+        "imag": 0.5458534609753588,
+        "magnitude": 0.5817579760279603
+      },
+      "closure_relative_error": 0.45037075231587864,
+      "baseline_only_closure_roots_g": [
+        0.0006522872010270078,
+        0.0007938061791982179
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.900429940341087e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005488426331653154,
+      "implied_minus_measured_baseline_g": 0.00014194725506080463,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record2_+1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00021323554787745983,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19848180565936707,
+        "imag": 0.5403558962614596,
+        "magnitude": 0.5756557320155233
+      },
+      "closure_relative_error": 0.4408420464739416,
+      "baseline_only_closure_roots_g": [
+        0.0006353366066360188,
+        0.0008095884324026718
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.935221848891741e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005441460781337544,
+      "implied_minus_measured_baseline_g": 0.00013725070002924356,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record3_-1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0012874320709514917
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.216090216406299,
+        "imag": 0.5357155845405096,
+        "magnitude": 0.5776557531489677
+      },
+      "closure_relative_error": 0.4307086175092947,
+      "baseline_only_closure_roots_g": [
+        0.0006279538206632686,
+        0.0008017410001010006
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.715507834057362e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005392814127437949,
+      "implied_minus_measured_baseline_g": 0.00013238603463928413,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "record3_+1_window_sd",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.001334023154711049
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.18413279606863345,
+        "imag": 0.5504565340652929,
+        "magnitude": 0.5804371477457555
+      },
+      "closure_relative_error": 0.46131474605937,
+      "baseline_only_closure_roots_g": [
+        0.0006623341212653345,
+        0.0007994625010591912
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.122629300693273e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005543897768536539,
+      "implied_minus_measured_baseline_g": 0.00014749439874914305,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    }
+  ],
+  "angle_scenarios": [
+    {
+      "label": "trial0_angle_-5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        -5.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.4596667591426002,
+      "normalized_algebra_vector": {
+        "real": -0.17417826732329184,
+        "imag": 0.5606434455214011,
+        "magnitude": 0.5870767767625051
+      },
+      "closure_relative_error": 0.4439930210882784,
+      "baseline_only_closure_roots_g": [
+        0.0006533904051643145,
+        0.0007762786051896022
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.639636457130886e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005456857783466968,
+      "implied_minus_measured_baseline_g": 0.00013879040024218604,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "trial0_angle_+5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        5.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.4596667591426007,
+      "normalized_algebra_vector": {
+        "real": -0.22481109586869505,
+        "imag": 0.5262692430404621,
+        "magnitude": 0.5722755848330981
+      },
+      "closure_relative_error": 0.4507363617119543,
+      "baseline_only_closure_roots_g": [
+        0.0006411679701600711,
+        0.0008215001129760609
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.203949528560538e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005490252673584717,
+      "implied_minus_measured_baseline_g": 0.0001421298892539609,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "trial1_angle_-5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        115.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.4596667591426005,
+      "normalized_algebra_vector": {
+        "real": -0.19690161508921422,
+        "imag": 0.537174209279257,
+        "magnitude": 0.572124442005003
+      },
+      "closure_relative_error": 0.43519888813897906,
+      "baseline_only_closure_roots_g": [
+        0.0006267518772202462,
+        0.0008174925909003807
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.955482030533071e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005414208611230828,
+      "implied_minus_measured_baseline_g": 0.000134525483018572,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "trial1_angle_+5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        125.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.4596667591426011,
+      "normalized_algebra_vector": {
+        "real": -0.20495567924712238,
+        "imag": 0.5533909312171449,
+        "magnitude": 0.5901257096661932
+      },
+      "closure_relative_error": 0.46299563241267255,
+      "baseline_only_closure_roots_g": [
+        0.0006851608534137918,
+        0.0007625189097403418
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.85316634039502e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005552567513077319,
+      "implied_minus_measured_baseline_g": 0.0001483613732032211,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "trial2_angle_-5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        235.0
+      ],
+      "geometry_condition_number": 1.4596667591426007,
+      "normalized_algebra_vector": {
+        "real": -0.18159018943259117,
+        "imag": 0.5516293582697266,
+        "magnitude": 0.5807494690511862
+      },
+      "closure_relative_error": 0.4638938817405418,
+      "baseline_only_closure_roots_g": [
+        0.0006657604997549809,
+        0.0007987445429319305
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.156660391747279e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005557217247924748,
+      "implied_minus_measured_baseline_g": 0.00014882634668796394,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "label": "trial2_angle_+5deg",
+      "amplitudes_g": [
+        0.0004068953781045108,
+        0.0011890255787488338,
+        0.00020020172864438905,
+        0.0013107276128312704
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        245.0
+      ],
+      "geometry_condition_number": 1.459666759142601,
+      "normalized_algebra_vector": {
+        "real": -0.21780699073394538,
+        "imag": 0.5349236907192345,
+        "magnitude": 0.577566654253225
+      },
+      "closure_relative_error": 0.42916770345180966,
+      "baseline_only_closure_roots_g": [
+        0.0006264547639058748,
+        0.0008016137340066066
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.694663010455672e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005385530483296138,
+      "implied_minus_measured_baseline_g": 0.00013165767022510304,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    }
+  ],
+  "half_record_scenarios": [
+    {
+      "half_choices": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": "halves_0000",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011965990517350724,
+        0.00019116314967204095,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20022926690103265,
+        "imag": 0.5408140848533414,
+        "magnitude": 0.5766902406834037
+      },
+      "closure_relative_error": 0.4671472792222674,
+      "baseline_only_closure_roots_g": [
+        0.0006536497122888904,
+        0.0008007161804419862
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.075719754694053e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005493930237832715,
+      "implied_minus_measured_baseline_g": 0.0001483539078263024,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "label": "halves_0001",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011965990517350724,
+        0.00019116314967204095,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.21001472502358254,
+        "imag": 0.5362693708677871,
+        "magnitude": 0.5759262303955804
+      },
+      "closure_relative_error": 0.4582664022657015,
+      "baseline_only_closure_roots_g": [
+        0.0006433794409628011,
+        0.000801223465086925
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.950637735319585e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005448711944722854,
+      "implied_minus_measured_baseline_g": 0.00014383207851531636,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": "halves_0010",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011965990517350724,
+        0.00020924030761673717,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19837269023599383,
+        "imag": 0.5370840131617947,
+        "magnitude": 0.5725477809104184
+      },
+      "closure_relative_error": 0.46084217916785286,
+      "baseline_only_closure_roots_g": [
+        0.0006419306450606214,
+        0.0008116292957843156
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.099846943157426e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005461711796919375,
+      "implied_minus_measured_baseline_g": 0.00014513206373496839,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "label": "halves_0011",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011965990517350724,
+        0.00020924030761673717,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20810596649587818,
+        "imag": 0.5324995305882299,
+        "magnitude": 0.5717200743089828
+      },
+      "closure_relative_error": 0.45174386060423605,
+      "baseline_only_closure_roots_g": [
+        0.0006323133924822671,
+        0.0008114731286946041
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.974764923782957e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005416203611673803,
+      "implied_minus_measured_baseline_g": 0.00014058124521041125,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "label": "halves_0100",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011814521057625952,
+        0.00019116314967204095,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.1895068350568627,
+        "imag": 0.5480647154718657,
+        "magnitude": 0.5799032444111053
+      },
+      "closure_relative_error": 0.46597060403985124,
+      "baseline_only_closure_roots_g": [
+        0.0006571702581684015,
+        0.0007902688544466125
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.955652380019373e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.000548787426382109,
+      "implied_minus_measured_baseline_g": 0.00014774831042513992,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "label": "halves_0101",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011814521057625952,
+        0.00019116314967204095,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19927346436608323,
+        "imag": 0.5435609106946478,
+        "magnitude": 0.5789372826443773
+      },
+      "closure_relative_error": 0.4565974444097748,
+      "baseline_only_closure_roots_g": [
+        0.0006455636465503167,
+        0.0007919198108676758
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.830570360644905e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005440338167653396,
+      "implied_minus_measured_baseline_g": 0.0001429947008083705,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "label": "halves_0110",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011814521057625952,
+        0.00020924030761673717,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.18765424377337622,
+        "imag": 0.5442652882641826,
+        "magnitude": 0.5757072339439999
+      },
+      "closure_relative_error": 0.45961358882788456,
+      "baseline_only_closure_roots_g": [
+        0.0006444738804094509,
+        0.0008021619205907288
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.979779568482746e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005455499552738463,
+      "implied_minus_measured_baseline_g": 0.00014451083931687727,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "label": "halves_0111",
+      "amplitudes_g": [
+        0.0004010391159569691,
+        0.0011814521057625952,
+        0.00020924030761673717,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.19736809124987845,
+        "imag": 0.5397200844579287,
+        "magnitude": 0.5746755023584128
+      },
+      "closure_relative_error": 0.45001053753918585,
+      "baseline_only_closure_roots_g": [
+        0.0006337966520388047,
+        0.0008028723007445064
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.854697549108276e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005407662139797415,
+      "implied_minus_measured_baseline_g": 0.00013972709802277243,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "label": "halves_1000",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011965990517350724,
+        0.00019116314967204095,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20235444300817323,
+        "imag": 0.546554130698405,
+        "magnitude": 0.5828110657740099
+      },
+      "closure_relative_error": 0.4414961804226672,
+      "baseline_only_closure_roots_g": [
+        0.0006536497122888904,
+        0.0008007161804419862
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.980404314661927e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005523008784875406,
+      "implied_minus_measured_baseline_g": 0.00013954923823548807,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "label": "halves_1001",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011965990517350724,
+        0.00019116314967204095,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.21227524646609414,
+        "imag": 0.5420415776103036,
+        "magnitude": 0.5821252890233406
+      },
+      "closure_relative_error": 0.4322720048023201,
+      "baseline_only_closure_roots_g": [
+        0.0006433794409628011,
+        0.000801223465086925
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.855322295287459e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.000547795742652633,
+      "implied_minus_measured_baseline_g": 0.0001350441024005805,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "label": "halves_1010",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011965990517350724,
+        0.00020924030761673717,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.20047251966672405,
+        "imag": 0.5427691950095086,
+        "magnitude": 0.578608356483723
+      },
+      "closure_relative_error": 0.4348716551072072,
+      "baseline_only_closure_roots_g": [
+        0.0006419306450606214,
+        0.0008116292957843156
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 9.0045315031253e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005490542562377315,
+      "implied_minus_measured_baseline_g": 0.00013630261598567906,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "label": "halves_1011",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011965990517350724,
+        0.00020924030761673717,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.21033985631147586,
+        "imag": 0.5382155862026908,
+        "magnitude": 0.5778571383868494
+      },
+      "closure_relative_error": 0.42541986155372746,
+      "baseline_only_closure_roots_g": [
+        0.0006323133924822671,
+        0.0008114731286946041
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.879449483750831e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005445195826607559,
+      "implied_minus_measured_baseline_g": 0.00013176794240870346,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "label": "halves_1100",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011814521057625952,
+        0.00019116314967204095,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.191545462650247,
+        "imag": 0.553960544250738,
+        "magnitude": 0.5861415774780621
+      },
+      "closure_relative_error": 0.4403425098566023,
+      "baseline_only_closure_roots_g": [
+        0.0006571702581684015,
+        0.0007902688544466125
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.860336939987249e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005517313319502634,
+      "implied_minus_measured_baseline_g": 0.00013897969169821087,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "label": "halves_1101",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011814521057625952,
+        0.00019116314967204095,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.2014478528773972,
+        "imag": 0.5494920195011997,
+        "magnitude": 0.5852544035925064
+      },
+      "closure_relative_error": 0.4306063075551638,
+      "baseline_only_closure_roots_g": [
+        0.0006455636465503167,
+        0.0007919198108676758
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.73525492061278e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005469938983604572,
+      "implied_minus_measured_baseline_g": 0.00013424225810840468,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "label": "halves_1110",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011814521057625952,
+        0.00020924030761673717,
+        0.0013178848218205746
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.18966745994044676,
+        "imag": 0.5501043444745608,
+        "magnitude": 0.5818836096420377
+      },
+      "closure_relative_error": 0.43366405245066025,
+      "baseline_only_closure_roots_g": [
+        0.0006444738804094509,
+        0.0008021619205907288
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.884464128450622e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.0005484685674697254,
+      "implied_minus_measured_baseline_g": 0.0001357169272176729,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    },
+    {
+      "half_choices": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "label": "halves_1111",
+      "amplitudes_g": [
+        0.0004127516402520525,
+        0.0011814521057625952,
+        0.00020924030761673717,
+        0.0013035704038419664
+      ],
+      "angles_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "geometry_condition_number": 1.414213562373095,
+      "normalized_algebra_vector": {
+        "real": -0.1995157571732876,
+        "imag": 0.5455930623350987,
+        "magnitude": 0.5809288485078197
+      },
+      "closure_relative_error": 0.42368721230843787,
+      "baseline_only_closure_roots_g": [
+        0.0006337966520388047,
+        0.0008028723007445064
+      ],
+      "correction_allowed": false,
+      "physical_validation_complete": false,
+      "scope": "unconstrained algebra diagnostic only; no mass, angle, physical approval or change to original solver",
+      "q_g2": 8.759382109076151e-07,
+      "algebra_status": "finite_positive_q",
+      "unconstrained_implied_baseline_g": 0.000543700434060472,
+      "implied_minus_measured_baseline_g": 0.00013094879380841948,
+      "baseline_root_scope": "hypothetical baseline-only changes; both roots retained; never replace measured data to force closure"
+    }
+  ],
+  "angle_perturbation_degrees": 5.0,
+  "uncertainty_scope": "window SD/temporal halves and illustrative angle changes only; no independent-run error model, confidence interval or pass rate",
+  "correction_allowed": false,
+  "physical_validation_complete": false
+}

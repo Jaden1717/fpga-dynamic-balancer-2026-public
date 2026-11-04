@@ -1,0 +1,151 @@
+{
+  "kind": "hengxin-five-state-description-v1",
+  "planned_runs": 5,
+  "completed_runs": 5,
+  "status": "COMPLETED",
+  "runs": [
+    {
+      "name": "01_reference_before",
+      "mean_peak_mg": 0.4068953781045108,
+      "within_record_sd_mg": 0.029361445752497738,
+      "within_record_cv": 0.07215969345554048,
+      "rpm_median": 1746.036896429248,
+      "source_sha256": {
+        "samples.csv": "08cfbf8daafaa6ab728b53d908e3fb912b96a1d19aa4a4b247df6ebc65c5d3b7",
+        "pulses.csv": "d901529c894c49ced1f021d7adb6cdceeb50cdc31bef8015f6bddec496d7d17d",
+        "capture.json": "3f06c2bca44cb6b41539832909c44462ff8a6d3ae8440f21e4962885d93508db",
+        "stop_snapshot.json": "1704a71f8f0f613c55c779be4878774d424d53358d9fbe91be4fc4bc7929e746"
+      },
+      "summary_sha256": "e6b183e5d2f23e6dcfdd6a47713c12a98a9cbad5f3480a2b9197238584d047d5",
+      "before_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "after_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "initialization_id": "08585386-197b-40ea-99d9-94d37a28d282",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "hardware_windows_verified": 0
+    },
+    {
+      "name": "02_trial_000",
+      "mean_peak_mg": 1.1890255787488337,
+      "within_record_sd_mg": 0.012293897044856374,
+      "within_record_cv": 0.010339472307898348,
+      "rpm_median": 1747.4744988861867,
+      "source_sha256": {
+        "samples.csv": "634adf03e0fb2bf78ce15e05a87d5d30c7ef64d91b0174e1707be85ea7cfe13f",
+        "pulses.csv": "11fa2b2664f263e5d1ddbce8f5103e273a63c70eaecb26f387b9847909721ba7",
+        "capture.json": "d39c0d5ec83091d97172893895e98054137bfc407a92144afccb183866f73f20",
+        "stop_snapshot.json": "7ca53701269f6691aba5c41cf0be3efe3e711f3e88578002d32831052532423e"
+      },
+      "summary_sha256": "95e455115ba99fd9dc7284aa9b0c6ed8b3c6cc7c789ab7f41d45c06caa76e151",
+      "before_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "after_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "initialization_id": "11312029-ec54-4f80-9e1d-d52bb4412bf6",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "hardware_windows_verified": 0
+    },
+    {
+      "name": "03_trial_120",
+      "mean_peak_mg": 0.20020172864438904,
+      "within_record_sd_mg": 0.013033819233070775,
+      "within_record_cv": 0.06510343003192678,
+      "rpm_median": 1745.9418854513656,
+      "source_sha256": {
+        "samples.csv": "0bfed09216ad2efbc09aad540a61c7ebcad12532040c9f6df1c864a20086f7de",
+        "pulses.csv": "561d10a73a430214e874c61159283ed2a629cd004e1fe137c13d5c4bf93bc641",
+        "capture.json": "db459ede0b5f8085dc07db7559fd1566acde60485eb26cb6017eafef73b572fd",
+        "stop_snapshot.json": "f7533076a5724a570bff638b93144b3c339994613ef05785c7834d39ba979e6b"
+      },
+      "summary_sha256": "c8a180591588de019169aa8c7edf8ba6627a796e73e22ba12cc176e0bcd36047",
+      "before_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "after_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "initialization_id": "a8c44ca8-9827-4acb-a35f-671266b03489",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "hardware_windows_verified": 0
+    },
+    {
+      "name": "04_trial_240",
+      "mean_peak_mg": 1.3107276128312704,
+      "within_record_sd_mg": 0.023295541879778756,
+      "within_record_cv": 0.017772984754214974,
+      "rpm_median": 1748.961881813109,
+      "source_sha256": {
+        "samples.csv": "b6c8b0793c19ee53c57e470943833431cf7c4ada5cc61adf3d294111971b9e74",
+        "pulses.csv": "dd81a9e1341b500ff91148d74d3e5079cef360af222a8aa40f37c5142587e03a",
+        "capture.json": "7729f9967fd036c15d59da85023ca54a8f6a877a84dd98feee41ae3e025a6068",
+        "stop_snapshot.json": "64e26584ffc001187da59fee8f36565881590256b5f13fdf97fa3893885a956b"
+      },
+      "summary_sha256": "c24db285e5035de919be995e375c303f112e208e2162d23d53ff2adc6277ff80",
+      "before_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "after_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "initialization_id": "fdfa35cf-3f14-4590-bb80-df5186f99def",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "hardware_windows_verified": 0
+    },
+    {
+      "name": "05_reference_after",
+      "mean_peak_mg": 0.5750377681302145,
+      "within_record_sd_mg": 0.011541900516243346,
+      "within_record_cv": 0.0200715520891312,
+      "rpm_median": 1747.332260471345,
+      "source_sha256": {
+        "samples.csv": "be517125d9217e44268a8a00e6dbbe3212f7dd38a44eb882be76b2d192ee1a7d",
+        "pulses.csv": "67d3ac3c72c2bc9b584068935972bcc28b2fde8d70e87b93fc9864203f852bd3",
+        "capture.json": "41852586077ccacdeb8f22dd6f9e8ee1116ab1c203ef7f4617efa5c74c587a33",
+        "stop_snapshot.json": "9cd7c2c8b57c1f96f8255c08541f47d66935778fd312da5e027599f5abbda302"
+      },
+      "summary_sha256": "4d4c316d49b7cd843aac4ae1f3e95939588ff9d626fa5e037cb1856c3f305fec",
+      "before_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "after_boot_id": "4cc2d7db-3f1e-41be-9dcf-93a405b66244",
+      "initialization_id": "aa868bf8-9599-417c-8c71-f2b434345588",
+      "sensor_registers": {
+        "DEVID": 173,
+        "FILTER": 0,
+        "RANGE": 129,
+        "POWER_CTL": 0
+      },
+      "amplitude_source": "CPU reference (not new FPGA evidence)",
+      "hardware_windows_verified": 0
+    }
+  ],
+  "missing_runs": [],
+  "invalid_runs": [],
+  "deviations": [],
+  "same_observed_boot": true,
+  "identical_observed_sensor_configuration": true,
+  "baseline_change_mg": 0.16814239002570364,
+  "baseline_change_relative_to_before": 0.41323248941529234,
+  "primary_baseline": "01_reference_before",
+  "trial_states": [
+    "02_trial_000",
+    "03_trial_120",
+    "04_trial_240"
+  ],
+  "after_baseline_role": "drift control, never substitute whichever baseline gives lower closure",
+  "automatic_extra_capture": false,
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "scope": "Description of entry-produced summaries, not independent raw-file verification or calibrated uncertainty. Three trial placements are not independent repeated baselines. No model approval, correction advice, new capture or retry."
+}

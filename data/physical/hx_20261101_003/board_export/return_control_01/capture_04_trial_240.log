@@ -1,0 +1,18 @@
+Loading sealed capture overlay...
+Capture running; raw data and stop evidence will be saved before analysis...
+DEVID via PL = 0xAD OK
+after reset   : POWER_CTL 0x01 (expect 0x01 = Standby)
+config        : FILTER 0x00 RANGE 0x81
+enter measure : POWER_CTL 0x00
+Loading and validating raw capture (one CSV parse)...
+Prepared 1/8 angle windows
+Prepared 2/8 angle windows
+Prepared 3/8 angle windows
+Prepared 4/8 angle windows
+Prepared 5/8 angle windows
+Prepared 6/8 angle windows
+Prepared 7/8 angle windows
+Prepared 8/8 angle windows
+1x Z peak 1.310728 mg; SD 0.023296 mg; CV 1.78%; RPM 1748.96; CPU reference (not new FPGA evidence)
+Runtime context: bound observations/declarations
+No automatic recapture; physical correction remains unapproved.

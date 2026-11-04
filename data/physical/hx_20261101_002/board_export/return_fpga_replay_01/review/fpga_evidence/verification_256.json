@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "prepared_sha256": "2be1ed26521e74a6a897ac4f9b7b236bed45b95ad286a0ebf11b3a0c0c2b9ad3",
+  "result_sha256": "734ce2408afffae216829879174372f6a4b4e469654682b6a20971bbfe0a990f",
+  "real_g": -0.0007618865966796875,
+  "imag_g": 3.662109375e-06,
+  "amplitude_g": 0.00076190185546875,
+  "phase_deg": 179.72459740005434,
+  "magnitude_error_q8": 0,
+  "phase_error_deg": 4.945322871208191e-06,
+  "verification_scope": "same prepared input arithmetic only; hardware provenance and physical quality require separate acceptance",
+  "physical_validation_complete": false
+}

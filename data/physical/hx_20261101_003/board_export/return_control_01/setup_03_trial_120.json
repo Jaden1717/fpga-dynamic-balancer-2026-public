@@ -1,0 +1,10 @@
+{
+  "fixture_id": "reinforced_original_20261101_01",
+  "sensor_mount_id": "unchanged_reinforced_mount_20261101_01",
+  "cable_relief": "operator-declared no touch or cable pull during trial access",
+  "environment": null,
+  "trial_position": "p120",
+  "trial_mass_g": null,
+  "trial_radius_mm": 40,
+  "power_setting": null
+}

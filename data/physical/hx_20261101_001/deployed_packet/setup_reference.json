@@ -1,0 +1,10 @@
+{
+  "fixture_id": "operator_fixed_reference_20261031",
+  "sensor_mount_id": "operator_fixed_mount_20261031",
+  "cable_relief": null,
+  "environment": null,
+  "trial_position": "current_unchanged",
+  "trial_mass_g": null,
+  "trial_radius_mm": null,
+  "power_setting": null
+}

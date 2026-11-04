@@ -1,0 +1,34 @@
+# Private registration, source receipts and personal materials
+submission/internal/
+reference/
+outputs/
+.env
+.env.*
+!.env.example
+
+# Generated runs and local material
+work/
+submission/
+
+# Local Vivado outputs and board configuration
+*.bit
+*.xsa
+build/overlay/ps7_cfg.tcl
+.Xil/
+/NA/
+/na/
+*.jou
+*.wdb
+*.str
+build/output/
+build/runs/
+
+# Python and editor runtime files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/

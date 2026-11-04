@@ -1,0 +1,19 @@
+{
+  "documentation_date": "2026-11-01",
+  "source": "direct operator reply after archive return",
+  "operator_statement": "3次都未取下胶带，胶带在C位置",
+  "applies_to_archive_sha256": "e78b7b51998a808b2fb490f4aeb1ae94eb6f15550fbf022fa0469f99547af599",
+  "applies_to_runs": [
+    "run_01",
+    "run_02",
+    "run_03"
+  ],
+  "trial_position": "C",
+  "tape_removed": false,
+  "nominal_prior_radius_mm": 40,
+  "radius_scope": "prior operator ruler measurement at C; not remeasured or independently calibrated for this batch",
+  "mounting_source": "operator declared fixed setup before batch; no new independent geometry observation",
+  "absolute_trial_mass_g": null,
+  "setup_verified_by_software": false,
+  "original_runtime_setup_preserved": true
+}

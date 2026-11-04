@@ -1,0 +1,16 @@
+{
+  "kind": "hengxin-fpga-replay-execution-v1",
+  "runtime": {
+    "boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+    "uptime_seconds": 1672.84,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "compute_xsa_path": "/home/xilinx/validation/order1x_20261016_v1/order1x.xsa",
+  "source_archive_sha256": "e78b7b51998a808b2fb490f4aeb1ae94eb6f15550fbf022fa0469f99547af599",
+  "selection": "run_01, all eight fixed windows; selected by acquisition order, not lowest CV",
+  "new_physical_capture": false,
+  "physical_validation_complete": false
+}

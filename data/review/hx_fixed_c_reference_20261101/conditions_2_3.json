@@ -1,0 +1,24 @@
+{
+  "kind": "hengxin-measurement-comparison-v1",
+  "purpose": "same-state, same-boot comparison of recorded conditions and operator declarations",
+  "comparability": "UNKNOWN",
+  "reasons": [
+    "rpm_tolerance_missing",
+    "setup_cable_relief_missing",
+    "setup_environment_missing",
+    "setup_trial_mass_g_missing",
+    "setup_trial_radius_mm_missing",
+    "setup_power_setting_missing"
+  ],
+  "mean_difference_mg": -0.0035094331308116455,
+  "first_mean_mg": 0.7479127157263834,
+  "second_mean_mg": 0.7444032825955718,
+  "first_cv": 0.03599248692181792,
+  "second_cv": 0.048095573554789085,
+  "rpm_relative_difference": 0.0008648500132368234,
+  "rpm_relative_tolerance": null,
+  "automatic_recapture": false,
+  "correction_allowed": false,
+  "physical_validation_complete": false,
+  "scope": "No causal attribution, accuracy certification or balancing approval. CV is descriptive only; different initialization IDs are recorded and do not alone reject equal effective configuration."
+}

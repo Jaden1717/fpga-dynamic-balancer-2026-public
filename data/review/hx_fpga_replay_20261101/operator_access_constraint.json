@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "source": "direct operator replies after FPGA replay",
+  "statements": [
+    "移动胶带需要拆装或碰动测量安装",
+    "会碰到传感器安装处或拉动传感器线"
+  ],
+  "interpretation": "Trial relocation and sensor/cable mechanical boundary can be confounded. This is not proof of the unique cause of historical amplitude changes.",
+  "current_trial_position": "C, retained according to latest confirmed pilot declaration",
+  "new_capture_scheduled": false,
+  "next_operation": "With fan power off and rotor fully stopped, gently turn only rotor to bring marked C blade to an accessible side away from sensor/cable; dry-run hand access without peeling tape or moving measurement mounting.",
+  "rotor_label_rule": "A/B/C identify rotor blades/marked rotor angles, never new stationary tabletop positions",
+  "if_not_accessible": "Stop physical progression and report obstruction; no blind A/B/C or additional repeatability batch",
+  "physical_validation_complete": false
+}

@@ -1,0 +1,12 @@
+{
+  "runtime": {
+    "boot_id": "4fc7886f-5fdf-4d37-90fa-3f885a935e8b",
+    "uptime_seconds": 1748.39,
+    "read_errors": [],
+    "python_executable": "/usr/local/share/pynq-venv/bin/python3",
+    "python_version": "3.10.4",
+    "platform": "Linux-5.15.19-xilinx-v2022.1-armv7l-with-glibc2.35"
+  },
+  "command_exit_code": 0,
+  "new_physical_capture": false
+}

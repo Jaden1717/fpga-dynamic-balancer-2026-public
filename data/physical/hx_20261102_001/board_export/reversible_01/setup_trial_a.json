@@ -1,0 +1,10 @@
+{
+  "fixture_id": "hx_static_20261101_9c2e953b412e",
+  "sensor_mount_id": "operator_reports_firmly_fixed",
+  "cable_relief": null,
+  "environment": null,
+  "trial_position": "A; single 10x10 mm tape; radius approx 40 mm by ruler",
+  "trial_mass_g": null,
+  "trial_radius_mm": 40,
+  "power_setting": "unchanged from previous three no-trial starts; voltage unmeasured"
+}
